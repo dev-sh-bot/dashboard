@@ -115,16 +115,12 @@
                 <div class="main-inventory-heading d-flex align-items-center justify-content-between">
                     <div class="d-flex align-items-center justify-content-center">
                         <span class="go-back-icon d-inline-block"><img src="./assets/images/icons/arrow-back.png" alt=""></span>
-                        <span class="heading">Products</span>
-                    </div>
-                    <div class="search-box position-relative">
-                        <img src="./assets/images/icons/search.png" class="d-block position-absolute" alt="">
-                        <input type="text" class="postion-relative" placeholder="Search Products by Product name, bacode">
+                        <span class="heading">Customers</span>
                     </div>
                 </div>
 
                 <div class="main-action-btns d-flex align-items-center justify-content-between">
-                    <a href="./add-product-item.php" class="main-action-btn-left">Add New</a>
+                    <a href="./add-location.php" class="main-action-btn-left">Add New</a>
 
                     <div class="dropdown main-action-btn-right">
                         <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -144,52 +140,29 @@
                         <thead>
                             <tr>
                                 <th></th>
-                                <th>Product Name</th>
-                                <th>Barcode</th>
-                                <th>Cost</th>
-                                <th>Price(Shop)</th>
-                                <th>Category</th>
-                                <th>Company</th>
+                                <th>Name</th>
+                                <th>Phone</th>
+                                <th>Mobile</th>
+                                <th>Email</th>
                             </tr>
                         </thead>
 
                         <tbody>
                             <tr>
                                 <td><input type="checkbox" name="" id=""></td>
-                                <td>Test1</td>
-                                <td>15642351616</td>
-                                <td>R12.50</td>
-                                <td>R25.99</td>
-                                <td>Drinks</td>
-                                <td>Korea Market, Gogi Newlands</td>
+                                <td>Pick & Pay Pielands</td>
+                                <td>0215556666</td>
+                                <td>08235556666</td>
+                                <td>test@asdasd.com</td>
                             </tr>
                             <tr>
                                 <td><input type="checkbox" name="" id=""></td>
-                                <td>Test2</td>
-                                <td>1564222222</td>
-                                <td>R12.50</td>
-                                <td>R25.99</td>
-                                <td>Sause</td>
-                                <td>Korea Market</td>
+                                <td>Plushi</td>
+                                <td>0215556666</td>
+                                <td>08235556666</td>
+                                <td>test@asdasd.com</td>
                             </tr>
-                            <tr>
-                                <td><input type="checkbox" name="" id=""></td>
-                                <td>Food</td>
-                                <td>1478523698</td>
-                                <td>R10</td>
-                                <td>R25.99</td>
-                                <td>Vegetables</td>
-                                <td>Gogi Newlands</td>
-                            </tr>
-                            <tr>
-                                <td><input type="checkbox" name="" id=""></td>
-                                <td>Pizza</td>
-                                <td>1478523698</td>
-                                <td>R60</td>
-                                <td>R120</td>
-                                <td>Mains</td>
-                                <td>Gogi Newlands</td>
-                            </tr>
+                           
                         </tbody>
                     </table>
                 </div>

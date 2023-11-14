@@ -115,7 +115,7 @@
                 <div class="main-inventory-heading d-flex align-items-center justify-content-between">
                     <div class="d-flex align-items-center justify-content-center">
                         <span class="go-back-icon d-inline-block"><img src="./assets/images/icons/arrow-back.png" alt=""></span>
-                        <span class="heading">Products</span>
+                        <span class="heading">Sales Order</span>
                     </div>
                     <div class="search-box position-relative">
                         <img src="./assets/images/icons/search.png" class="d-block position-absolute" alt="">
@@ -144,52 +144,48 @@
                         <thead>
                             <tr>
                                 <th></th>
-                                <th>Product Name</th>
-                                <th>Barcode</th>
-                                <th>Cost</th>
-                                <th>Price(Shop)</th>
-                                <th>Category</th>
+                                <th>Reference</th>
+                                <th>Order Date</th>
+                                <th>Customer</th>
+                                <th>Pricelist</th>
                                 <th>Company</th>
+                                <th>Total</th>
+                                <th>Status</th>
                             </tr>
                         </thead>
 
                         <tbody>
                             <tr>
                                 <td><input type="checkbox" name="" id=""></td>
-                                <td>Test1</td>
-                                <td>15642351616</td>
-                                <td>R12.50</td>
-                                <td>R25.99</td>
-                                <td>Drinks</td>
-                                <td>Korea Market, Gogi Newlands</td>
-                            </tr>
-                            <tr>
-                                <td><input type="checkbox" name="" id=""></td>
-                                <td>Test2</td>
-                                <td>1564222222</td>
-                                <td>R12.50</td>
-                                <td>R25.99</td>
-                                <td>Sause</td>
+                                <td>SO00013</td>
+                                <td>20/05/2023</td>
+                                <td>Pick & Pay Pielands </td>
                                 <td>Korea Market</td>
+                                <td>Warehouse</td>
+                                <td>R25415.58</td>
+                                <td>Quotation Sent </td>
                             </tr>
                             <tr>
                                 <td><input type="checkbox" name="" id=""></td>
-                                <td>Food</td>
-                                <td>1478523698</td>
-                                <td>R10</td>
-                                <td>R25.99</td>
-                                <td>Vegetables</td>
-                                <td>Gogi Newlands</td>
+                                <td>SO00013</td>
+                                <td>20/05/2023</td>
+                                <td>Plushi</td>
+                                <td>Korea Market</td>
+                                <td>Shop</td>
+                                <td>R25415.58</td>
+                                <td>Confirmed</td>
                             </tr>
                             <tr>
                                 <td><input type="checkbox" name="" id=""></td>
-                                <td>Pizza</td>
-                                <td>1478523698</td>
-                                <td>R60</td>
-                                <td>R120</td>
-                                <td>Mains</td>
-                                <td>Gogi Newlands</td>
+                                <td>SO00013</td>
+                                <td>20/05/2023</td>
+                                <td>Pick & Pay Pielands </td>
+                                <td>Korea Market</td>
+                                <td>Warehouse</td>
+                                <td>R25415.58</td>
+                                <td>Quotation Sent </td>
                             </tr>
+                           
                         </tbody>
                     </table>
                 </div>

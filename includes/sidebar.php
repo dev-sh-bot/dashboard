@@ -22,6 +22,9 @@
                             <li><a href="./product-categories.php">Product Categories</a></li>
                             <li><a href="./products.php">Products</a></li>
                             <li><a href="./purchase-orders.php">Purchase Orders</a></li>
+                            <li><a href="./customers.php">Customers</a></li>
+                            <li><a href="./sale-order.php">Sales Order</a></li>
+
                             <!-- Add more submenu items here -->
                         </ul>
                     </div>
