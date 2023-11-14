@@ -157,7 +157,7 @@
                         <tbody>
                             <tr>
                                 <td><input type="checkbox" name="" id=""></td>
-                                <td>PO00013</td>
+                                <td><a href="./purchase-order.php">PO00013</a></td>
                                 <td>20/05/2023</td>
                                 <td>Bread Maker Company</td>
                                 <td>Korea Market</td>
@@ -167,7 +167,7 @@
                             </tr>
                             <tr>
                                 <td><input type="checkbox" name="" id=""></td>
-                                <td>PO00014</td>
+                                <td><a href="./purchase-order.php">PO00014</a></td>
                                 <td>20/05/2023</td>
                                 <td>Fresh Produce Ptv Ltd</td>
                                 <td>Korea Market</td>
