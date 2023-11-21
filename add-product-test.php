@@ -160,12 +160,7 @@
                             </div>
                         </div>
 
-
-
                         <div class="tab-pane fade" id="pills-Inventory" role="tabpanel" aria-labelledby="pills-Inventory-tab">
-
-
-
                             <div class="d-flex justify-content-between">
                                 <div class="d-flex flex-column two-col">
                                     <label for="">
@@ -236,8 +231,8 @@
                             </div>
 
                             <div class="d-flex justify-content-between">
-                                <div class="measurement-input two-col">
-                                    <div class="d-flex align-items w-100">
+                                <div class="two-col">
+                                    <div class="d-flex align-items-center justify-content-between w-100 three-col">
                                         <label for="">
                                             <span>Width</span>
                                             <input type="text">
@@ -271,8 +266,65 @@
                                 </div>
                             </div>
 
+                            <div class="invertory-main-input-wrapper">
+                                <div class="invertory-main-input-header d-flex align-items-center justify-content-between">
+                                    <h4>Packaging</h4>
+                                    <div><a href="#">Add New</a></div>
+                                </div>
 
+                                <div class="inventory-row-inputs d-flex">
+                                    <label for="">
+                                        <select name="" id="">
+                                            <option value="">Box</option>
+                                        </select>
+                                    </label>
+                                    <label for="">
+                                        <input type="text" placeholder="Packaging Barcode">
+                                    </label>
+                                    <label for="">
+                                        <input type="text" placeholder="Packaging Price">
+                                    </label>
+                                    <label for="">
+                                        <input type="text" placeholder="Quantity">
+                                    </label>
+                                    <label for="">
+                                        <input type="text" placeholder="Unit Barcode">
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="invertory-main-table-wrapper">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Packaging Name</th>
+                                            <th>Packaging Barcode</th>
+                                            <th>Packaging Price</th>
+                                            <th>Quantity</th>
+                                            <th>Unit Barcode</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr>
+                                            <td>Box</td>
+                                            <td>118582453245</td>
+                                            <td>R412.99</td>
+                                            <td>24</td>
+                                            <td>15642351616</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Box</td>
+                                            <td>1185811111111</td>
+                                            <td>R412.99</td>
+                                            <td>24</td>
+                                            <td>15642358888</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
+
                         <div class="tab-pane fade" id="pills-Operation" role="tabpanel" aria-labelledby="pills-Operation-tab">
                             <div class="two-col">
                                 <div>
@@ -282,6 +334,58 @@
                                     </label>
                                 </div>
                             </div>
+
+                            <div class="invertory-main-input-wrapper">
+                                <div class="invertory-main-input-header d-flex align-items-center justify-content-between">
+                                    <h4>Suppliers</h4>
+                                    <div><a href="#">Add New</a></div>
+                                </div>
+
+                                <div class="inventory-row-inputs d-flex">
+                                    <label for="">
+                                        <select name="" id="">
+                                            <option value="">Bread maker</option>
+                                        </select>
+                                    </label>
+                                    <label for="">
+                                        <input type="text" placeholder="Product Name">
+                                    </label>
+                                    <label for="">
+                                        <input type="text" placeholder="Product Code">
+                                    </label>
+                                    <label for="">
+                                        <input type="text" placeholder="Quantity">
+                                    </label>
+                                    <label for="">
+                                        <input type="text" placeholder="Price">
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="invertory-main-table-wrapper">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Supplier Name</th>
+                                            <th>Product Name</th>
+                                            <th>Product Code</th>
+                                            <th>Quantity</th>
+                                            <th>Price</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr>
+                                            <td>Bread maker</td>
+                                            <td>Bread test1</td>
+                                            <td>BT1046</td>
+                                            <td>24</td>
+                                            <td>R480</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
                         </div>
                     </div>
 

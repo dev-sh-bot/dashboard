@@ -996,7 +996,7 @@ body {
 }
 
 .inventory-main-input-wrapper div.two-col-radio {
-	gap: 40px;
+	gap: 30px;
 }
 
 .inventory-main-input-wrapper div.two-col-radio label {
@@ -1013,6 +1013,20 @@ body {
 	width: 24px;
 	height: 24px;
 	margin-right: 10px;
+}
+
+.min-max-input span.position-absolute {
+	top: 50%;
+	left: 20px;
+	transform: translateY(-50%);
+}
+
+.min-max-input input {
+    padding-left: 60px !important;
+}
+
+.three-col label {
+	width: 30%;
 }
 
 .inventory-main-input-wrapper .inventory-input-tabs {

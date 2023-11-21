@@ -25,6 +25,7 @@
                             <li><a href="./purchase-orders.php">Purchase Orders</a></li>
                             <li><a href="./customers.php">Customers</a></li>
                             <li><a href="./sale-order.php">Sales Order</a></li>
+                            <li><a href="./pricelist.php">Pricelist</a></li>
 
                             <!-- Add more submenu items here -->
                         </ul>
