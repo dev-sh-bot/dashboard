@@ -919,6 +919,7 @@ body {
 	color: #8C8C8C;
 	font-size: 14px;
 	font-weight: 500;
+	text-align: center;
 	line-height: 20px;
 	padding: 45px 5px;
 }
@@ -994,46 +995,24 @@ body {
 	height: 24px;
 }
 
-.inventory-main-input-wrapper .min-max-input {
-	gap: 56px;
+.inventory-main-input-wrapper div.two-col-radio {
+	gap: 40px;
 }
 
-.inventory-main-input-wrapper .min-max-input span.position-absolute {
-	top: 50%;
-	left: 15px;
-	transform: translateY(-50%);
-}
-
-.inventory-main-input-wrapper .min-max-input input {
-	padding-left: 50px;
-}
-
-
-.inventory-main-input-wrapper .per-unit-inputs {
-	gap: 65px;
-}
-
-.inventory-main-input-wrapper .per-unit-inputs input {
-	padding: 20px 30px;
-}
-
-.inventory-main-input-wrapper .input-price-icon span,
-.inventory-main-input-wrapper .input-unit-icon span {
-	top: 50%;
-	transform: translateY(-50%);
+.inventory-main-input-wrapper div.two-col-radio label {
 	width: fit-content;
 }
 
-.inventory-main-input-wrapper .input-price-icon span {
-	left: 15px;
+.inventory-main-input-wrapper div.two-col-radio label span,
+.inventory-main-input-wrapper div.two-col-radio label input {
+	width: fit-content;
+	margin: 0%;
 }
 
-.inventory-main-input-wrapper .input-unit-icon span {
-	right: 15px;
-}
-
-.inventory-main-input-wrapper .measurement-input>div.d-flex {
-	gap: 25px;
+.inventory-main-input-wrapper div.two-col-radio label input {
+	width: 24px;
+	height: 24px;
+	margin-right: 10px;
 }
 
 .inventory-main-input-wrapper .inventory-input-tabs {
@@ -1132,12 +1111,11 @@ body {
 }
 
 .invertory-main-input-wrapper .inventory-row-inputs label {
-	flex-grow: 1;
+	width: 100%;
 }
 
 .invertory-main-input-wrapper .inventory-row-inputs input,
 .invertory-main-input-wrapper .inventory-row-inputs select {
-	width: 100%;
 	border-radius: 8px;
 	background: #F9F9F9;
 	color: #000;

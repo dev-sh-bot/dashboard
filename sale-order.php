@@ -88,7 +88,7 @@
                                 <td>Korea Market</td>
                                 <td>Warehouse</td>
                                 <td>R25415.58</td>
-                                <td>Quotation Sent </td>
+                                <td style="color: #FF0000;">Canceled</td>
                             </tr>
                             <tr>
                                 <td><input type="checkbox" name="" id=""></td>
@@ -98,7 +98,7 @@
                                 <td>Korea Market</td>
                                 <td>Shop</td>
                                 <td>R25415.58</td>
-                                <td>Confirmed</td>
+                                <td style="color: #0FA901;">Confirmed</td>
                             </tr>
                             <tr>
                                 <td><input type="checkbox" name="" id=""></td>
@@ -116,9 +116,6 @@
                 </div>
 
             </section>
-
-
-
         </main>
     </div>
 

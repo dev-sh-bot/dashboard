@@ -44,14 +44,12 @@
                     </select>
                 </div>
 
-
                 <div class="main-inventory-heading d-flex align-items-center justify-content-between">
                     <div class="d-flex align-items-center justify-content-center">
                         <span class="go-back-icon d-inline-block"><img src="./assets/images/icons/arrow-back.png" alt=""></span>
                         <span class="heading">Purchase Order / PO00013</span>
                     </div>
                 </div>
-
 
                 <div class="purchase-order-modal-btns d-flex align-items-center">
                     <button class=" " type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#email-supplier">Email Supplier</button>
@@ -72,17 +70,18 @@
                     </div>
                 </div>
 
-
                 <div class="invertory-main-input-wrapper">
                     <div class="invertory-main-input-header d-flex align-items-center justify-content-between">
                         <h4>Products</h4>
                         <div><a href="#">Add New</a></div>
                     </div>
 
-
                     <div class="inventory-row-inputs d-flex">
                         <label for="">
-                            <input type="text" placeholder="Product">
+                            <select name="" id="">
+                                <option value="">Bread</option>
+                                <option value="">Bread</option>
+                            </select>
                         </label>
                         <label for="">
                             <input type="text" placeholder="Quantity">
@@ -144,16 +143,12 @@
                     </div>
                 </div>
 
-
                 <div class="perform-action-btn d-flex align-items-center justify-content-end">
                     <div class="d-flex align-items-center justify-content-center">
                         <a href="#" class="discard-btn">Discard</a>
                         <a href="#" class="save-btn">Save</a>
                     </div>
                 </div>
-
-
-
 
 
                 <!-- Modal -->
@@ -260,12 +255,7 @@
                         </div>
                     </div>
                 </div>
-
-
             </section>
-
-
-
         </main>
     </div>
 

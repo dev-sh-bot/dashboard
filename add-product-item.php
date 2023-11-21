@@ -45,14 +45,12 @@
                     </select>
                 </div>
 
-
                 <div class="main-inventory-heading d-flex align-items-center justify-content-between">
                     <div class="d-flex align-items-center justify-content-center">
                         <span class="go-back-icon d-inline-block"><img src="./assets/images/icons/arrow-back.png" alt=""></span>
                         <span class="heading">Add Product / Test1</span>
                     </div>
                 </div>
-
 
                 <div class="inventory-main-input-wrapper">
                     <div class="d-flex justify-content-between">
@@ -296,13 +294,7 @@
                         <a href="#" class="save-btn">Save</a>
                     </div>
                 </div>
-
-
-
             </section>
-
-
-
         </main>
     </div>
 

@@ -48,43 +48,64 @@
                 <div class="main-inventory-heading d-flex align-items-center justify-content-between">
                     <div class="d-flex align-items-center justify-content-center">
                         <span class="go-back-icon d-inline-block"><img src="./assets/images/icons/arrow-back.png" alt=""></span>
-                        <span class="heading">Store</span>
+                        <span class="heading">Add Location</span>
                     </div>
                 </div>
 
                 <div class="inventory-main-input-wrapper">
-                    <div>
+                    <div class="d-flex justify-content-between">
                         <div class="two-col">
                             <label for="">
-                                <span>Store Name</span>
+                                <span>Supplier Name</span>
+                                <input type="text">
+                            </label>
+                        </div>
+                        <div class="two-col">
+                            <label for="">
+                                <span>Lead Time (in Days)</span>
                                 <input type="text">
                             </label>
                         </div>
                     </div>
-                    <div>
-                        <div class="two-col">
-                            <label for="">
-                                <span>Location</span>
-                                <input type="text">
-                            </label>
-                        </div>
-                    </div>
-                    <div>
+                    <div class="d-flex justify-content-between">
                         <div class="two-col">
                             <label for="">
                                 <span>Address</span>
                                 <input type="text">
                             </label>
                         </div>
-                    </div>
-                    <div>
                         <div class="two-col">
                             <label for="">
-                                <span>Company</span>
-                                <select name="" id="">
-                                    <option value="">Korea Market</option>
-                                    <option value="">Gogi</option>
-                                </select>
+                                <span>Base Margin (in %)</span>
+                                <input type="text">
+                            </label>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div class="two-col">
+                            <label for="">
+                                <span>VAT</span>
+                                <input type="text">
+                            </label>
+                        </div>
+                        <div class="two-col">
+                            <label for="">
+                                <span>Mobile Number</span>
+                                <input type="text">
+                            </label>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div class="two-col">
+                            <label for="">
+                                <span>Phone Number</span>
+                                <input type="text">
+                            </label>
+                        </div>
+                        <div class="two-col">
+                            <label for="">
+                                <span>Email Address</span>
+                                <input type="text">
                             </label>
                         </div>
                     </div>

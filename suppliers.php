@@ -40,12 +40,16 @@
                 <div class="main-inventory-heading d-flex align-items-center justify-content-between">
                     <div class="d-flex align-items-center justify-content-center">
                         <span class="go-back-icon d-inline-block"><img src="./assets/images/icons/arrow-back.png" alt=""></span>
-                        <span class="heading">Store</span>
+                        <span class="heading">Suppliers</span>
+                    </div>
+                    <div class="search-box position-relative">
+                        <img src="./assets/images/icons/search.png" class="d-block position-absolute" alt="">
+                        <input type="text" class="postion-relative" placeholder="Search Products by Product name, bacode">
                     </div>
                 </div>
 
                 <div class="main-action-btns d-flex align-items-center justify-content-between">
-                    <a href="./add-store.php" class="main-action-btn-left">Add Store</a>
+                    <a href="./add-supplier.php" class="main-action-btn-left">Add Suppliers</a>
 
                     <div class="dropdown main-action-btn-right">
                         <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -65,48 +69,33 @@
                         <thead>
                             <tr>
                                 <th></th>
-                                <th>Stores</th>
-                                <th>Location </th>
-                                <th>Address</th>
-                                <th>Company</th>
+                                <th>Name</th>
+                                <th>VAT</th>
+                                <th>Phone</th>
+                                <th>Mobile</th>
+                                <th>Email</th>
+                                <th>LeadTiome</th>
                             </tr>
                         </thead>
 
                         <tbody>
                             <tr>
                                 <td><input type="checkbox" name="" id=""></td>
-                                <td>Warehouse</td>
-                                <td>WH</td>
-                                <td>123 some road, Maitland</td>
-                                <td>Korea Market</td>
+                                <td>Bread maker...</td>
+                                <td>4851651321</td>
+                                <td>0215468512</td>
+                                <td>082333666</td>
+                                <td>test@asdasdasd.com</td>
+                                <td>5</td>
                             </tr>
                             <tr>
                                 <td><input type="checkbox" name="" id=""></td>
-                                <td>Shop</td>
-                                <td>SH</td>
-                                <td>123 some road,Lululand</td>
-                                <td>Korea Market</td>
-                            </tr>
-                            <tr>
-                                <td><input type="checkbox" name="" id=""></td>
-                                <td>Gogi Observatory</td>
-                                <td>GoOb</td>
-                                <td>123 some road, Lululand</td>
-                                <td>Gogi</td>
-                            </tr>
-                            <tr>
-                                <td><input type="checkbox" name="" id=""></td>
-                                <td>Gogi Newlands</td>
-                                <td>GoNe</td>
-                                <td>55 some road, Gogiland</td>
-                                <td>Gogi</td>
-                            </tr>
-                            <tr>
-                                <td><input type="checkbox" name="" id=""></td>
-                                <td>Central Kitchen</td>
-                                <td>Ceki</td>
-                                <td>55 some road, Gogiland</td>
-                                <td>Gogi</td>
+                                <td>Fresh produce</td>
+                                <td>4854445555</td>
+                                <td>0215463512</td>
+                                <td>082333666</td>
+                                <td>test@asdasd.com</td>
+                                <td>2</td>
                             </tr>
                         </tbody>
                     </table>

@@ -45,14 +45,12 @@
                     </select>
                 </div>
 
-
                 <div class="main-inventory-heading d-flex align-items-center justify-content-between">
                     <div class="d-flex align-items-center justify-content-center">
                         <span class="go-back-icon d-inline-block"><img src="./assets/images/icons/arrow-back.png" alt=""></span>
                         <span class="heading">Product / Food Ingredient1</span>
                     </div>
                 </div>
-
 
                 <div class="inventory-main-input-wrapper">
                     <div class="d-flex justify-content-between">
@@ -127,7 +125,6 @@
                                 </div>
                             </div>
 
-
                             <div class="d-flex align-items-streach justify-content-between">
                                 <div class="two-col">
                                     <div class="per-unit-inputs d-flex w-100">
@@ -159,7 +156,6 @@
                                     </label>
                                 </div>
                             </div>
-
 
                             <div class="d-flex align-items-streach justify-content-between">
                                 <div class="two-col">
@@ -205,8 +201,6 @@
                                 </div>
                             </div>
                         </div>
-
-
 
                         <div class="tab-pane fade" id="pills-Inventory" role="tabpanel" aria-labelledby="pills-Inventory-tab">
                             <div class="d-flex justify-content-between">
@@ -296,11 +290,7 @@
                                     </div>
                                 </div>
                             </div>
-
-
                         </div>
-
-
 
                         <div class="tab-pane fade" id="pills-Operation" role="tabpanel" aria-labelledby="pills-Operation-tab">
                             <div class="two-col">
@@ -312,12 +302,8 @@
                                 </div>
                             </div>
                         </div>
-
-
                     </div>
-
                 </div>
-
 
                 <div class="perform-action-btn d-flex align-items-center justify-content-end">
                     <div class="d-flex align-items-center justify-content-center">
@@ -325,13 +311,7 @@
                         <a href="#" class="save-btn">Save</a>
                     </div>
                 </div>
-
-
-
             </section>
-
-
-
         </main>
     </div>
 

@@ -21,7 +21,6 @@
             </svg>
         </div>
 
-
         <div class="login-wrapper position-relative d-flex align-items-center justify-content-center flex-column">
             <h3>Sign Up</h3>
             <form class="w-100">

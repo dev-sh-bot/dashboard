@@ -36,7 +36,6 @@
                     </select>
                 </div>
 
-
                 <div class="main-inventory-heading d-flex align-items-center justify-content-between">
                     <div class="d-flex align-items-center justify-content-center">
                         <span class="go-back-icon d-inline-block"><img src="./assets/images/icons/arrow-back.png" alt=""></span>
@@ -62,7 +61,6 @@
                         </ul>
                     </div>
                 </div>
-
 
                 <div class="invertory-main-table-wrapper">
                     <table>
@@ -118,11 +116,7 @@
                         </tbody>
                     </table>
                 </div>
-
             </section>
-
-
-
         </main>
     </div>
 
