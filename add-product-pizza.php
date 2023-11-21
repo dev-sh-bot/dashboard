@@ -9,7 +9,6 @@
 </head>
 
 <body>
-
     <div class="dashboard">
         <?php include("includes/sidebar.php"); ?>
 
@@ -17,7 +16,7 @@
             <?php include("includes/top-header.php"); ?>
 
             <section class="inventory-main-wrapper d-flex flex-column">
-                <div class="main-select-fields d-flex justify-content-center align-items-center">
+                <!-- <div class="main-select-fields d-flex justify-content-center align-items-center">
                     <select name="" id="">
                         <option value="Operation">Operation</option>
                         <option value="Operation">Operation</option>
@@ -43,7 +42,7 @@
                         <option value="Configuration">Configuration</option>
                         <option value="Configuration">Configuration</option>
                     </select>
-                </div>
+                </div> -->
 
                 <div class="main-inventory-heading d-flex align-items-center justify-content-between">
                     <div class="d-flex align-items-center justify-content-center">

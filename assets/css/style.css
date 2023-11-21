@@ -507,15 +507,12 @@ body {
 	background-color: #46999F;
 }
 
-.user-dropdown-content-wrapper {
-	/* display: none; */
+.profile-user-dropdown-content-wrapper {
+	transform: translate(852px, 100px) !important;
 }
 
 
-
-
 /* dashboard-page-main-wrapper */
-
 .dashboard-page-main-wrapper {
 	width: 100%;
 	height: auto;
@@ -935,8 +932,8 @@ body {
 
 
 .invertory-main-table-wrapper table input {
-	width: 18px;
-	height: 18px;
+	width: 22px;
+	height: 22px;
 }
 
 .invertory-main-table-wrapper table td {
@@ -1022,7 +1019,7 @@ body {
 }
 
 .min-max-input input {
-    padding-left: 60px !important;
+	padding-left: 60px !important;
 }
 
 .three-col label {

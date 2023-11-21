@@ -17,7 +17,7 @@
             <?php include("includes/top-header.php"); ?>
             
             <section class="inventory-main-wrapper d-flex flex-column">
-                <div class="main-select-fields d-flex justify-content-center align-items-center">
+                <!-- <div class="main-select-fields d-flex justify-content-center align-items-center">
                     <select name="" id="">
                         <option value="Operation">Operation</option>
                         <option value="Operation">Operation</option>
@@ -35,7 +35,8 @@
                     <select name="" id="">
                         <option value="Configuration">Configuration</option>
                     </select>
-                </div>
+                </div> -->
+                
                 <div class="invertory-main-table">
                     <table>
                         <thead>

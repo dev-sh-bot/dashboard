@@ -16,35 +16,15 @@
             <?php include("includes/top-header.php"); ?>
 
             <section class="inventory-main-wrapper d-flex flex-column">
-                <!-- <div class="main-select-fields d-flex justify-content-center align-items-center">
-                    <select name="" id="">
-                        <option value="Operation">Operation</option>
-                        <option value="Operation">Operation</option>
-                        <option value="Operation">Operation</option>
-                    </select>
-                    <select name="" id="">
-                        <option value="Purchase">Purchase</option>
-                    </select>
-                    <select name="" id="">
-                        <option value="Sales">Sales</option>
-                    </select>
-                    <select name="" id="">
-                        <option value="Products">Products</option>
-                    </select>
-                    <select name="" id="">
-                        <option value="Configuration">Configuration</option>
-                    </select>
-                </div> -->
-
                 <div class="main-inventory-heading d-flex align-items-center justify-content-between">
                     <div class="d-flex align-items-center justify-content-center">
                         <span class="go-back-icon d-inline-block"><img src="./assets/images/icons/arrow-back.png" alt=""></span>
-                        <span class="heading">Customers</span>
+                        <span class="heading">User</span>
                     </div>
                 </div>
 
                 <div class="main-action-btns d-flex align-items-center justify-content-between">
-                    <a href="#" class="main-action-btn-left">Add New</a>
+                    <a href="./add-store.php" class="main-action-btn-left">Add User</a>
 
                     <div class="dropdown main-action-btn-right">
                         <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -58,36 +38,42 @@
                     </div>
                 </div>
 
+
                 <div class="invertory-main-table-wrapper">
                     <table>
                         <thead>
                             <tr>
                                 <th></th>
-                                <th>Name</th>
-                                <th>Phone</th>
-                                <th>Mobile</th>
-                                <th>Email</th>
+                                <th>User Name</th>
+                                <th>Position</th>
                             </tr>
                         </thead>
 
                         <tbody>
                             <tr>
                                 <td><input type="checkbox" name="" id=""></td>
-                                <td><a href="./customer.php">Pick & Pay Pielands</a></td>
-                                <td>0215556666</td>
-                                <td>08235556666</td>
-                                <td>test@asdasd.com</td>
+                                <td>Eugene Devi</td>
+                                <td>General Manager</td>
                             </tr>
                             <tr>
                                 <td><input type="checkbox" name="" id=""></td>
-                                <td>Plushi</td>
-                                <td>0215556666</td>
-                                <td>08235556666</td>
-                                <td>test@asdasd.com</td>
+                                <td>Chantel Mimi</td>
+                                <td>Hr Manager</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="" id=""></td>
+                                <td>Yaseen Fiddi</td>
+                                <td>Warehouse Manager</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="" id=""></td>
+                                <td>Clodi Didi</td>
+                                <td>Central Kitchen Stock Manager </td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
+
             </section>
         </main>
     </div>

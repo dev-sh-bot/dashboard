@@ -44,6 +44,12 @@
                     </a>
                 </li>
                 <li class="menu-item">
+                    <a href="./users.php">
+                        <span class="menu-icon"><img src="./assets/images/icons/user.png" alt=""></span>
+                        <span>User Management</span>
+                    </a>
+                </li>
+                <li class="menu-item">
                     <a href="#">
                         <span class="menu-icon"><img src="./assets/images/icons/calendar.png" alt=""></span>
                         <span>Employees Calendar</span>

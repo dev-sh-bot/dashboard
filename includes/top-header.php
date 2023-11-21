@@ -68,9 +68,8 @@
 
             </button>
 
-            <ul class="dropdown-menu user-dropdown-content-wrapper" aria-labelledby="profileButton">
+            <ul class="dropdown-menu profile-user-dropdown-content-wrapper" aria-labelledby="profileButton">
                 <li><a class="dropdown-item" href="#">Profile</a></li>
-                <li><a class="dropdown-item" href="#">Settings</a></li>
                 <li>
                     <hr class="dropdown-divider">
                 </li>
