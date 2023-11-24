@@ -28,8 +28,8 @@
 }
 
 ::-webkit-scrollbar {
-	width: 10px;
-	background-color: #F5F5F5;
+	width: 5px;
+	background-color: transparent;
 }
 
 ::-webkit-scrollbar-button:start:decrement,
@@ -38,14 +38,12 @@
 }
 
 ::-webkit-scrollbar-track-piece {
-	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
-	background-color: #dedede;
+	background-color: transparent;
 }
 
 ::-webkit-scrollbar-thumb:vertical {
-	border-radius: 10px;
-	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
-	background-image: linear-gradient(#5eba60, #5eba60);
+	border-radius: 0px;
+	background-image: linear-gradient(90deg, #756AF0 0%, #978EF4 98.92%);;
 }
 
 
@@ -327,16 +325,16 @@ body {
 
 /* Scrollbar styles (optional) */
 .navigation::-webkit-scrollbar {
-	width: 10px;
+	width: 5px;
 }
 
 .navigation::-webkit-scrollbar-track {
-	background: #333;
+	background: transparent;
 	/* Change background color as needed */
 }
 
 .navigation::-webkit-scrollbar-thumb {
-	background: #555;
+	/* background: #555; */
 	/* Change thumb color as needed */
 }
 
@@ -1189,6 +1187,19 @@ body {
 
 .modal-content {
 	padding: 60px;
+	overflow-y: scroll !important;
+}
+
+.modal-content::-webkit-scrollbar {
+	width: 5px;	
+}
+
+.modal-content::-webkit-scrollbar-track-piece  {
+	background-color: #fff;
+}
+
+.modal-content::-webkit-scrollbar-thumb:vertical {
+	border-radius: 0px;
 }
 
 .email-modal-header .email-info-wrapper {

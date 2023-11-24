@@ -24,7 +24,7 @@
                 </div>
 
                 <div class="main-action-btns d-flex align-items-center justify-content-between">
-                    <a href="./add-store.php" class="main-action-btn-left">Add User</a>
+                    <a href="./add-users.php" class="main-action-btn-left">Add User</a>
 
                     <div class="dropdown main-action-btn-right">
                         <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
