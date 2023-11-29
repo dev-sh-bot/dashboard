@@ -282,6 +282,11 @@ body {
 	font-size: 18px;
 }
 
+.navigation li a img {
+	width: 24px;
+	height: 24px;
+}
+
 
 .navigation li.active {
 	background: linear-gradient(90deg, #756AF0 0%, #978EF4 100%);
@@ -560,7 +565,7 @@ body {
 	width: 33%;
 	border-radius: 12px;
 	background: #FFF;
-	padding: 30px 20px;
+	padding: 30px 10px;
 	gap: 15px;
 }
 
@@ -805,7 +810,7 @@ body {
 }
 
 .inventory-main-wrapper .invertory-main-table {
-	margin-top: 60px;
+	/* margin-top: 60px; */
 }
 
 .inventory-main-wrapper .invertory-main-table,
@@ -856,7 +861,7 @@ body {
 
 /* Store Page */
 .main-inventory-heading {
-	margin-top: 30px;
+	/* margin-top: 30px; */
 
 }
 

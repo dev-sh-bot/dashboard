@@ -20,7 +20,7 @@
                 <div class="main-inventory-heading d-flex align-items-center justify-content-between">
                     <div class="d-flex align-items-center justify-content-center">
                         <span class="go-back-icon d-inline-block"><img src="./assets/images/icons/arrow-back.png" alt=""></span>
-                        <span class="heading">Store</span>
+                        <span class="heading">Add User</span>
                     </div>
                 </div>
 
