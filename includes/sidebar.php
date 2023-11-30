@@ -137,7 +137,7 @@
                                                     </a>
                                                 </li>
                                                 <li class="menu-item">
-                                                    <a href="#">
+                                                    <a href="./lot-number.php">
                                                         <span class="menu-icon"><img src="./assets/images/icons/Home.png" alt=""></span>
                                                         <span>Lot Number</span>
                                                     </a>

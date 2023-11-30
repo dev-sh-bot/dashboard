@@ -10,16 +10,10 @@
 
 <body>
    <div class="dashboard">
-
-
-
       <?php include("includes/sidebar.php"); ?>
 
       <main class="main-content">
          <?php include("includes/top-header.php"); ?>
-
-
-
 
          <section class="dashboard-page-main-wrapper d-flex">
             <div class="total-number-section-wrapper">
