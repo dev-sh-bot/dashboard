@@ -43,7 +43,8 @@
 
 ::-webkit-scrollbar-thumb:vertical {
 	border-radius: 0px;
-	background-image: linear-gradient(90deg, #756AF0 0%, #978EF4 98.92%);;
+	background-image: linear-gradient(90deg, #756AF0 0%, #978EF4 98.92%);
+	;
 }
 
 
@@ -255,7 +256,7 @@ body {
 	overflow-y: auto;
 }
 
-.navigation nav {
+.navigation nav.main-menu {
 	padding-right: 10px;
 	/* Adjust padding as needed */
 }
@@ -265,31 +266,37 @@ body {
 	padding: 0;
 }
 
+
 .navigation li {
-	padding: 10px 0;
-	color: #8C8C8C;
-	/* Change text color as needed */
-	position: relative;
-	border-radius: 12px;
-	padding: 16px 30px;
-	cursor: pointer;
+
+	border-radius: 12px !important;
 }
 
-.navigation li a {
-	color: #8C8C8C;
+.navigation li a,
+.navigation li button {
+	padding: 16px 26px !important;
+	border-radius: 12px !important;
 	text-decoration: none;
-	display: block;
-	font-size: 18px;
+	display: flex !important;
+	align-items: flex-end;
 }
 
-.navigation li a img {
+.navigation li img {
 	width: 24px;
 	height: 24px;
+	margin-right: 12px;
+}
+
+.navigation li a span,
+.navigation li button{
+	color: #8C8C8C;
+	font-size: 16px;
+	font-weight: 400;
 }
 
 
 .navigation li.active {
-	background: linear-gradient(90deg, #756AF0 0%, #978EF4 100%);
+	background: linear-gradient(90deg, #756AF0 0%, #978EF4 100%) !important;
 }
 
 .navigation li.active a>span img {
@@ -297,36 +304,11 @@ body {
 }
 
 .navigation li.active a>span {
-	color: #FFF;
-	font-weight: 600;
+	color: #FFF !important;
+	font-weight: 600 !important;
 }
 
-/* Submenu styles */
-.navigation .has-submenu .submenu {
-	display: none;
-	padding-left: 20px;
-	/* Adjust the indentation as needed */
-}
 
-.navigation .has-submenu.open .submenu {
-	display: block;
-}
-
-.navigation .submenu ul {
-	list-style: disc;
-	margin-top: 10px;
-	/* Adjust the margin as needed */
-	padding-left: 20px;
-	/* Adjust the indentation as needed */
-}
-
-.navigation .submenu ul li {
-	padding: 10px;
-}
-
-.navigation .submenu ul li a {
-	font-size: 14px;
-}
 
 /* Scrollbar styles (optional) */
 .navigation::-webkit-scrollbar {
@@ -338,9 +320,27 @@ body {
 	/* Change background color as needed */
 }
 
-.navigation::-webkit-scrollbar-thumb {
-	/* background: #555; */
-	/* Change thumb color as needed */
+
+.accordion-button::after {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%238C8C8C'%3E%3Cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3E%3C/svg%3E");
+
+}
+.accordion-button:not(.collapsed) {
+	background-color: #fff;
+	color: #696969;
+}
+
+.accordion-item {
+	border: none !important;
+}
+
+.accordion-button {
+	box-shadow: none !important;
+
+}
+
+.accordion-body {
+	padding: 0%;
 }
 
 /* Main content styles */
@@ -1196,10 +1196,10 @@ body {
 }
 
 .modal-content::-webkit-scrollbar {
-	width: 5px;	
+	width: 5px;
 }
 
-.modal-content::-webkit-scrollbar-track-piece  {
+.modal-content::-webkit-scrollbar-track-piece {
 	background-color: #fff;
 }
 
