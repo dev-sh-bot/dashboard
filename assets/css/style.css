@@ -336,7 +336,7 @@ body {
 }
 
 /* Main content styles */
-.main-content {
+.main-wrapper {
 	width: calc(100% - var(--sidebar-width));
 	margin-left: var(--sidebar-width);
 	background-color: #F1F1F1;
@@ -769,7 +769,7 @@ body {
 /* Invertory Page */
 .inventory-main-wrapper {
 	margin-top: 40px;
-	padding: 25px 15px;
+	padding: 25px 20px;
 	border-radius: 15px;
 	background: #FFF;
 }

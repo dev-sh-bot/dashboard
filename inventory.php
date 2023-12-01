@@ -13,7 +13,7 @@
     <div class="dashboard">
         <?php include("includes/sidebar.php"); ?>
 
-        <main class="main-content">
+        <main class="main-wrapper">
             <?php include("includes/top-header.php"); ?>
             
             <section class="inventory-main-wrapper d-flex flex-column">
