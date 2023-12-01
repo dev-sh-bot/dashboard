@@ -19,31 +19,17 @@
                 <div class="main-inventory-heading d-flex align-items-center justify-content-between">
                     <div class="d-flex align-items-center justify-content-center">
                         <span class="go-back-icon d-inline-block"><img src="./assets/images/icons/arrow-back.png" alt=""></span>
-                        <span class="heading">Lot Number</span>
+                        <span class="heading">Scraps</span>
+                    </div>
+                    <div class="search-box position-relative">
+                        <img src="./assets/images/icons/search.png" class="d-block position-absolute" alt="">
+                        <input type="text" class="postion-relative" placeholder="Search by Reference, Vendor">
                     </div>
                 </div>
 
+
                 <div class="main-action-btns d-flex align-items-center justify-content-between">
-
-                    <a href="#" class="main-action-btn-left">Add New</a>
-
-
-                    <span class="product-lot-search-select">
-                        <select id="mySelect" style="width: 100%;">
-                            <option value="" selected disabled>Choose Product</option>
-                            <option value="Option 1">Product 1</option>
-                            <option value="Option 2">Product 2</option>
-                            <option value="Option 3">Product 3</option>
-                            <option value="Option 4">Product 4</option>
-                            <option value="Option 5">Product 5</option>
-                        </select>
-                    </span>
-
-
-                    <div class="search-box position-relative">
-                        <img src="./assets/images/icons/search.png" class="d-block position-absolute" alt="">
-                        <input type="text" class="postion-relative" placeholder="Search Products by Product name, bacode">
-                    </div>
+                    <a href="./add-product-categories.php" class="main-action-btn-left">Add New</a>
 
                     <div class="dropdown main-action-btn-right">
                         <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -57,56 +43,42 @@
                     </div>
                 </div>
 
-
                 <div class="invertory-main-table-wrapper">
                     <table>
                         <thead>
                             <tr>
                                 <th></th>
-                                <th>Lot Number</th>
-                                <th>Created On</th>
-                                <th>Quantity</th>
+                                <th>Reference</th>
+                                <th>Created Date</th>
+                                <th>Location</th>
+                                <th>Status</th>
                             </tr>
                         </thead>
 
                         <tbody>
                             <tr>
                                 <td><input type="checkbox" name="" id=""></td>
-                                <td>2024-03-23</td>
-                                <td>2023-04-15</td>
-                                <td>120</td>
+                                <td>SC/00001</td>
+                                <td>20/05/2023</td>
+                                <td>Warehouse</td>
+                                <td style="color: green;">Done</td>
                             </tr>
                             <tr>
                                 <td><input type="checkbox" name="" id=""></td>
-                                <td>2023-09-10</td>
-                                <td>2023-03-20</td>
-                                <td>240</td>
+                                <td>SC/00002</td>
+                                <td>20/05/2023</td>
+                                <td>Shop</td>
+                                <td>Draft</td>
                             </tr>
-                            <tr>
-                                <td><input type="checkbox" name="" id=""></td>
-                                <td>2024-03-25</td>
-                                <td>2023-04-10</td>
-                                <td>80</td>
-                            </tr>
+                            
                         </tbody>
                     </table>
                 </div>
-
             </section>
         </main>
     </div>
 
     <?php include("includes/scripts.php"); ?>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var mySelect = new SlimSelect({
-                select: '#mySelect',
-                showSearch: true, // Optional: Set to true if you want a search box
-                removePlaceholder: true,
-            });
-        });
-    </script>
 </body>
 
 </html>

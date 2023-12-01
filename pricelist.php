@@ -28,7 +28,7 @@
                 </div>
 
                 <div class="main-action-btns d-flex align-items-center justify-content-between">
-                    <a href="./add-product-item.php" class="main-action-btn-left">Add New</a>
+                    <a href="#" class="main-action-btn-left">Add New</a>
 
                     <div class="dropdown main-action-btn-right">
                         <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">

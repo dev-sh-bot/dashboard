@@ -33,20 +33,20 @@
                                             <!-- Third Level Accordion -->
                                             <ul class="accordion inner-menu" id="thirdLevelOne">
                                                 <li class="menu-item">
-                                                    <a href="#">
-                                                        <span class="menu-icon"><img src="./assets/images/icons/Home.png" alt=""></span>
+                                                    <a href="./transfers.php">
+                                                        <span class="menu-icon"><img src="./assets/images/icons/arrow-right.png" alt=""></span>
                                                         <span>Transfers</span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-item">
-                                                    <a href="#">
-                                                        <span class="menu-icon"><img src="./assets/images/icons/Home.png" alt=""></span>
+                                                    <a href="./scraps.php">
+                                                        <span class="menu-icon"><img src="./assets/images/icons/arrow-right.png" alt=""></span>
                                                         <span>Scrap</span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-item">
                                                     <a href="#">
-                                                        <span class="menu-icon"><img src="./assets/images/icons/Home.png" alt=""></span>
+                                                        <span class="menu-icon"><img src="./assets/images/icons/arrow-right.png" alt=""></span>
                                                         <span>Run Scheduler</span>
                                                     </a>
                                                 </li>
@@ -68,13 +68,13 @@
                                             <ul class="inner-menu">
                                                 <li class="menu-item">
                                                     <a href="./suppliers.php">
-                                                        <span class="menu-icon"><img src="./assets/images/icons/Home.png" alt=""></span>
+                                                        <span class="menu-icon"><img src="./assets/images/icons/arrow-right.png" alt=""></span>
                                                         <span>Suppliers</span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-item">
                                                     <a href="./purchase-orders.php">
-                                                        <span class="menu-icon"><img src="./assets/images/icons/Home.png" alt=""></span>
+                                                        <span class="menu-icon"><img src="./assets/images/icons/arrow-right.png" alt=""></span>
                                                         <span>Purchase Orders</span>
                                                     </a>
                                                 </li>
@@ -97,19 +97,19 @@
                                             <ul class="inner-menu">
                                                 <li class="menu-item">
                                                     <a href="./customers.php">
-                                                        <span class="menu-icon"><img src="./assets/images/icons/Home.png" alt=""></span>
+                                                        <span class="menu-icon"><img src="./assets/images/icons/arrow-right.png" alt=""></span>
                                                         <span>Customers</span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-item">
                                                     <a href="./sale-order.php">
-                                                        <span class="menu-icon"><img src="./assets/images/icons/Home.png" alt=""></span>
+                                                        <span class="menu-icon"><img src="./assets/images/icons/arrow-right.png" alt=""></span>
                                                         <span>Sales Orders</span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-item">
                                                     <a href="./pricelist.php">
-                                                        <span class="menu-icon"><img src="./assets/images/icons/Home.png" alt=""></span>
+                                                        <span class="menu-icon"><img src="./assets/images/icons/arrow-right.png" alt=""></span>
                                                         <span>Pricelists</span>
                                                     </a>
                                                 </li>
@@ -132,13 +132,13 @@
                                             <ul class="inner-menu">
                                                 <li class="menu-item">
                                                     <a href="./products.php">
-                                                        <span class="menu-icon"><img src="./assets/images/icons/Home.png" alt=""></span>
+                                                        <span class="menu-icon"><img src="./assets/images/icons/arrow-right.png" alt=""></span>
                                                         <span>Products</span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-item">
                                                     <a href="./lot-number.php">
-                                                        <span class="menu-icon"><img src="./assets/images/icons/Home.png" alt=""></span>
+                                                        <span class="menu-icon"><img src="./assets/images/icons/arrow-right.png" alt=""></span>
                                                         <span>Lot Number</span>
                                                     </a>
                                                 </li>
@@ -160,31 +160,31 @@
                                             <ul class="accordion inner-menu" id="thirdLevelFive">
                                                 <li class="menu-item">
                                                     <a href="./store.php">
-                                                        <span class="menu-icon"><img src="./assets/images/icons/Home.png" alt=""></span>
+                                                        <span class="menu-icon"><img src="./assets/images/icons/arrow-right.png" alt=""></span>
                                                         <span>Stores</span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-item">
                                                     <a href="./location.php">
-                                                        <span class="menu-icon"><img src="./assets/images/icons/Home.png" alt=""></span>
+                                                        <span class="menu-icon"><img src="./assets/images/icons/arrow-right.png" alt=""></span>
                                                         <span>Locations</span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-item">
                                                     <a href="./routes.php">
-                                                        <span class="menu-icon"><img src="./assets/images/icons/Home.png" alt=""></span>
+                                                        <span class="menu-icon"><img src="./assets/images/icons/arrow-right.png" alt=""></span>
                                                         <span>Routes</span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-item">
                                                     <a href="./operation-type.php">
-                                                        <span class="menu-icon"><img src="./assets/images/icons/Home.png" alt=""></span>
+                                                        <span class="menu-icon"><img src="./assets/images/icons/arrow-right.png" alt=""></span>
                                                         <span>Operation Types</span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-item">
                                                     <a href="./product-categories.php">
-                                                        <span class="menu-icon"><img src="./assets/images/icons/Home.png" alt=""></span>
+                                                        <span class="menu-icon"><img src="./assets/images/icons/arrow-right.png" alt=""></span>
                                                         <span>Product Categories</span>
                                                     </a>
                                                 </li>
