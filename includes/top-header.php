@@ -3,7 +3,7 @@
 
     <div class="d-flex align-items-center alert-wrapper">
         <div class="toggle-button">
-            <button class="hamburger" id="toggleSidebar">☰</button>
+            <button class="hamburger" id="toggleSidebar"><img src="./assets/images/icons/hamberger.png" alt=""></button>
         </div>
 
         <div class="notifications-wrapper">

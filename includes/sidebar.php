@@ -1,5 +1,5 @@
 <div class="sidebar">
-    <div class="logo">POS SOFTWARE</div>
+    <div class="logo d-flex align-items-center justify-content-between">POS SOFTWARE <span class="cancel-icon"><img src="./assets/images/icons/cancel.png" alt=""></span></div>
     <div class="navigation">
         <nav class="main-menu">
             <ul class="accordion" id="accordionExample">

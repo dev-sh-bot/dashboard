@@ -232,6 +232,7 @@ body {
 	position: fixed;
 	top: 0%;
 	left: 0%;
+	z-index: 100;
 	overflow: hidden;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -244,6 +245,12 @@ body {
 	color: #3C3C3C;
 	font-size: 26px;
 	font-weight: 700;
+}
+
+.logo .cancel-icon {
+	display: none;
+	width: 20px;
+
 }
 
 /* Navigation styles */
@@ -312,9 +319,9 @@ body {
 }
 
 .accordion-button::after {
-    width: 18px;
-    height: 18px;
-    background-size: 18px;
+	width: 18px;
+	height: 18px;
+	background-size: 18px;
 	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%238C8C8C'%3E%3Cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3E%3C/svg%3E");
 }
 
@@ -363,6 +370,10 @@ body {
 
 .toggle-button {
 	display: none;
+}
+
+.toggle-button img{
+	width: 30px;
 }
 
 .toggle-button .hamburger {
@@ -767,33 +778,33 @@ body {
 }
 
 /* Invertory Page */
-.inventory-main-wrapper {
+.main-content-wrapper {
 	margin-top: 40px;
 	padding: 25px 20px;
 	border-radius: 15px;
 	background: #FFF;
 }
 
-.inventory-main-wrapper .invertory-main-table {
+.main-content-wrapper .invertory-main-table {
 	/* margin-top: 60px; */
 }
 
-.inventory-main-wrapper .invertory-main-table,
-.inventory-main-wrapper .invertory-main-table table {
+.main-content-wrapper .invertory-main-table,
+.main-content-wrapper .invertory-main-table table {
 	width: 100%;
 }
 
 
-.inventory-main-wrapper .invertory-main-table tr {
+.main-content-wrapper .invertory-main-table tr {
 	border-bottom: 1px solid #D0D3D9;
 }
 
-.inventory-main-wrapper .invertory-main-table tbody tr:last-child {
+.main-content-wrapper .invertory-main-table tbody tr:last-child {
 	border-bottom: none;
 }
 
-.inventory-main-wrapper .invertory-main-table th,
-.inventory-main-wrapper .invertory-main-table td {
+.main-content-wrapper .invertory-main-table th,
+.main-content-wrapper .invertory-main-table td {
 	width: 16.67%;
 	color: #8C8C8C;
 	font-size: 14px;
@@ -801,20 +812,20 @@ body {
 	line-height: 20px;
 }
 
-.inventory-main-wrapper .invertory-main-table th {
+.main-content-wrapper .invertory-main-table th {
 	padding: 10px;
 }
 
-.inventory-main-wrapper .invertory-main-table td {
+.main-content-wrapper .invertory-main-table td {
 	padding: 25px 10px;
 	font-weight: 400;
 }
 
-.inventory-main-wrapper .invertory-main-table tbody td:first-child {
+.main-content-wrapper .invertory-main-table tbody td:first-child {
 	color: #000;
 }
 
-.inventory-main-wrapper .invertory-main-table tbody td span.active {
+.main-content-wrapper .invertory-main-table tbody td span.active {
 	display: inline-block;
 	width: fit-content;
 	padding: 4px;
@@ -868,7 +879,7 @@ body {
 .main-action-btns .main-action-btn-left,
 .main-action-btns .main-action-btn-right button {
 	border-radius: 10px;
-	padding: 15px 31px;
+	padding: 10px 20px;
 	display: block;
 	text-decoration: none;
 	background: linear-gradient(90deg, #756AF0 0%, #978EF4 98.92%);
@@ -906,7 +917,7 @@ body {
 	font-weight: 500;
 	text-align: center;
 	line-height: 20px;
-	padding: 45px 5px;
+	padding: 15px 5px;
 }
 
 .invertory-main-table-wrapper table td a {
@@ -920,8 +931,8 @@ body {
 
 
 .invertory-main-table-wrapper table input {
-	width: 22px;
-	height: 22px;
+	width: 16px;
+	height: 16px;
 }
 
 .invertory-main-table-wrapper table td {
@@ -1290,12 +1301,53 @@ body {
 	box-shadow: none !important;
 }
 
+
+
 /* Mobile responsiveness */
-@media (max-width: 768px) {
-	.dashboard {
+@media (max-width: 1200px) {
+
+	/* Sidebar Container */
+	.sidebar {
+		transition: all .3s linear;
+		transform: translateX(-100%);
+	}
+
+	.sidebar.active{
+		transform: translateX(0%)
+	}
+
+	.logo .cancel-icon {
+		display: block;
+	}
+
+
+	/* Top-Header */
+
+	.toggle-button {
+		display: block;
+	}
+
+	/* Main Wrapper Container */
+
+	.main-wrapper {
+		width: 100%;
+		margin-left: 0px;
+	}
+}
+
+
+@media (max-width: 980px) {
+	.dashboard-page-main-wrapper {
 		flex-direction: column;
 	}
 
+	.dashboard-page-main-wrapper>div {
+		width: 100% !important;
+	}
+}
+
+
+@media (max-width: 768px) {
 	.sidebar {
 		width: 100%;
 		height: 100%;
