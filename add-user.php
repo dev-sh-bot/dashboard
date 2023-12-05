@@ -25,32 +25,32 @@
                 </div>
 
                 <div class="inventory-main-input-wrapper">
-                    <div>
-                        <div class="two-col">
+                    <div class="row justify-content-between">
+                        <div class="col-md-6">
                             <label for="">
                                 <span>Name</span>
                                 <input type="text">
                             </label>
                         </div>
                     </div>
-                    <div>
-                        <div class="two-col">
+                    <div class="row justify-content-between">
+                        <div class="col-md-6">
                             <label for="">
                                 <span>Email</span>
                                 <input type="text">
                             </label>
                         </div>
                     </div>
-                    <div>
-                        <div class="two-col">
+                    <div class="row justify-content-between">
+                        <div class="col-md-6">
                             <label for="">
                                 <span>Phone</span>
                                 <input type="text">
                             </label>
                         </div>
                     </div>
-                    <div>
-                        <div class="two-col">
+                    <div class="row justify-content-between">
+                        <div class="col-md-6">
                             <label for="">
                                 <span>Position</span>
                                 <select name="" id="">

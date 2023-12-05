@@ -22,14 +22,14 @@
                         <span class="heading">Transfers</span>
                     </div>
                     <div class="search-box position-relative">
-                        <img src="./assets/images/icons/search.png" class="d-block position-absolute" alt="">
+                        <button class="search-btn d-block position-absolute"><img src="./assets/images/icons/search.png" alt=""></button>
                         <input type="text" class="postion-relative" placeholder="Search by Reference, Vendor">
                     </div>
                 </div>
 
 
                 <div class="main-action-btns d-flex align-items-center justify-content-between">
-                    <a href="./add-product-categories.php" class="main-action-btn-left">Add New</a>
+                    <a href="#" class="main-action-btn-left">Add New</a>
 
                     <div class="dropdown main-action-btn-right">
                         <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -70,7 +70,7 @@
                                 <td>Fresh Produce pty ltd</td>
                                 <td>Draft</td>
                             </tr>
-                            
+
                         </tbody>
                     </table>
                 </div>

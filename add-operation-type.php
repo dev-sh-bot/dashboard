@@ -25,15 +25,15 @@
                 </div>
 
                 <div class="inventory-main-input-wrapper">
-                    <div class="d-flex justify-content-between">
-                        <div class="two-col">
+                    <div class="row justify-content-between">
+                        <div class="col-md-6">
                             <label for="">
                                 <span>Operation Name</span>
                                 <input type="text">
                             </label>
                         </div>
 
-                        <div class="two-col">
+                        <div class="col-md-6">
                             <label for="">
                                 <span>Operation Type</span>
                                 <select name="" id="">
@@ -44,14 +44,14 @@
                         </div>
                     </div>
 
-                    <div class="d-flex justify-content-between">
-                        <div class="two-col">
+                    <div class="row justify-content-between">
+                        <div class="col-md-6">
                             <label for="">
                                 <span>Store</span>
                                 <input type="text">
                             </label>
                         </div>
-                        <div class="two-col">
+                        <div class="col-md-6">
                             <label for="">
                                 <span>Code</span>
                                 <input type="text">
@@ -59,8 +59,8 @@
                         </div>
                     </div>
 
-                    <div>
-                        <div class="two-col">
+                    <div class="row justify-content-between">
+                        <div class="col-md-6">
                             <label for="">
                                 <span>Default Source Location</span>
                                 <select name="" id="">
@@ -70,8 +70,8 @@
                             </label>
                         </div>
                     </div>
-                    <div>
-                        <div class="two-col">
+                    <div class="row justify-content-between">
+                        <div class="col-md-6">
                             <label for="">
                                 <span>Default Destination Location</span>
                                 <select name="" id="">

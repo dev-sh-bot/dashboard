@@ -22,7 +22,7 @@
                         <span class="heading">Products</span>
                     </div>
                     <div class="search-box position-relative">
-                        <img src="./assets/images/icons/search.png" class="d-block position-absolute" alt="">
+                        <button class="search-btn d-block position-absolute"><img src="./assets/images/icons/search.png" alt=""></button>
                         <input type="text" class="postion-relative" placeholder="Search Products by Product name, bacode">
                     </div>
                 </div>
@@ -49,7 +49,6 @@
                                 <th></th>
                                 <th>Product Name</th>
                                 <th>Barcode</th>
-                                <th>Lot Number</th>
                                 <th>Cost</th>
                                 <th>Price(Shop)</th>
                                 <th>Category</th>
@@ -62,7 +61,6 @@
                                 <td><input type="checkbox" name="" id=""></td>
                                 <td><a href="./add-product-test.php">Test1</a></td>
                                 <td>15642351616</td>
-                                <td>2342</td>
                                 <td>R12.50</td>
                                 <td>R25.99</td>
                                 <td>Drinks</td>
@@ -72,7 +70,6 @@
                                 <td><input type="checkbox" name="" id=""></td>
                                 <td><a href="./add-product-test.php">Test2</a></td>
                                 <td>1564222222</td>
-                                <td>2342</td>
                                 <td>R12.50</td>
                                 <td>R25.99</td>
                                 <td>Sause</td>
@@ -82,7 +79,6 @@
                                 <td><input type="checkbox" name="" id=""></td>
                                 <td><a href="./add-food-ingrediant.php">Food</a></td>
                                 <td>1478523698</td>
-                                <td>2342</td>
                                 <td>R10</td>
                                 <td>R25.99</td>
                                 <td>Vegetables</td>
@@ -92,7 +88,6 @@
                                 <td><input type="checkbox" name="" id=""></td>
                                 <td><a href="./add-product-pizza.php">Pizza</a></td>
                                 <td>1478523698</td>
-                                <td>2342</td>
                                 <td>R60</td>
                                 <td>R120</td>
                                 <td>Mains</td>

@@ -25,14 +25,14 @@
                 </div>
 
                 <div class="inventory-main-input-wrapper">
-                    <div class="d-flex justify-content-between">
-                        <div class="two-col">
+                    <div class="row justify-content-between">
+                        <div class="col-md-6">
                             <label for="">
                                 <span>Product Name</span>
                                 <input type="text">
                             </label>
                         </div>
-                        <div class="two-col">
+                        <div class="col-md-6">
                             <label for="">
                                 <span>Internal Name</span>
                                 <select name="" id="">
@@ -58,8 +58,8 @@
                     </div>
                     <div class="tab-content" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-Info" role="tabpanel" aria-labelledby="pills-Info-tab">
-                            <div class="d-flex justify-content-between">
-                                <div class="two-col">
+                            <div class="row justify-content-between">
+                                <div class="col-md-6">
                                     <label for="">
                                         <span>Product Type</span>
                                         <select name="" id="">
@@ -68,7 +68,7 @@
                                         </select>
                                     </label>
                                 </div>
-                                <div class="two-col">
+                                <div class="col-md-6">
                                     <label for="">
                                         <span>BarCode</span>
                                         <input type="text">
@@ -76,8 +76,8 @@
                                 </div>
                             </div>
 
-                            <div class="d-flex justify-content-between">
-                                <div class="two-col">
+                            <div class="row justify-content-between">
+                                <div class="col-md-6">
                                     <label for="">
                                         <span>UOM</span>
                                         <select name="" id="">
@@ -86,7 +86,7 @@
                                         </select>
                                     </label>
                                 </div>
-                                <div class="two-col">
+                                <div class="col-md-6">
                                     <label for="">
                                         <span>Product Category</span>
                                         <select name="" id="">
@@ -97,8 +97,8 @@
                                 </div>
                             </div>
 
-                            <div class="d-flex align-items-streach justify-content-between">
-                                <div class="two-col">
+                            <div class="row align-items-streach justify-content-between">
+                                <div class="col-md-6">
                                     <div class="d-flex w-100 justify-content-between">
                                         <div class="two-col">
                                             <label for="">
@@ -115,7 +115,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="two-col">
+                                <div class="col-md-6">
                                     <label for="">
                                         <span>Company</span>
                                         <input type="text">
@@ -123,8 +123,8 @@
                                 </div>
                             </div>
 
-                            <div class="d-flex align-items-streach justify-content-between">
-                                <div class="two-col">
+                            <div class="row justify-content-between">
+                                <div class="col-md-6">
                                     <label for="">
                                         <span>Cost Price (in R)</span>
                                         <input type="text">
@@ -132,8 +132,8 @@
                                 </div>
                             </div>
 
-                            <div class="d-flex align-items-streach justify-content-between">
-                                <div class="two-col">
+                            <div class="row justify-content-between align-items-streach ">
+                                <div class="col-md-6">
                                     <div class="d-flex flex-column w-100">
                                         <label for="">
                                             <span>Calculated Price (in R)</span>
@@ -145,7 +145,7 @@
                                         </label>
                                     </div>
                                 </div>
-                                <div class="two-col">
+                                <div class="col-md-6">
                                     <label for="">
                                         <span>Product Description</span>
                                         <textarea name="" id="" cols="30" rows="4"></textarea>
@@ -155,8 +155,8 @@
                         </div>
 
                         <div class="tab-pane fade" id="pills-Inventory" role="tabpanel" aria-labelledby="pills-Inventory-tab">
-                            <div class="d-flex justify-content-between">
-                                <div class="d-flex flex-column two-col">
+                            <div class="row justify-content-between">
+                                <div class="d-flex flex-column col-md-6">
                                     <label for="">
                                         <span>Routes:</span>
                                         <div class="w-100">
@@ -179,7 +179,7 @@
                                         </div>
                                     </label>
                                 </div>
-                                <div class="d-flex flex-column two-col">
+                                <div class="d-flex flex-column col-md-6">
                                     <label for="">
                                         <span>Tracking:</span>
                                         <div class="w-100">
@@ -198,14 +198,14 @@
                                 </div>
                             </div>
 
-                            <div class="d-flex justify-content-between">
-                                <div class="two-col">
+                            <div class="row justify-content-between">
+                                <div class="col-md-6">
                                     <label for="">
                                         <span>Weight</span>
                                         <input type="text">
                                     </label>
                                 </div>
-                                <div class="two-col">
+                                <div class="col-md-6">
                                     <div class="w-100">
                                         <label for="">
                                             <span>Gogi New</span>
@@ -224,8 +224,8 @@
                                 </div>
                             </div>
 
-                            <div class="d-flex justify-content-between">
-                                <div class="two-col">
+                            <div class="row justify-content-between">
+                                <div class="col-md-6">
                                     <div class="d-flex align-items-center justify-content-between w-100 three-col">
                                         <label for="">
                                             <span>Width</span>

@@ -22,7 +22,7 @@
                         <span class="heading">Suppliers</span>
                     </div>
                     <div class="search-box position-relative">
-                        <img src="./assets/images/icons/search.png" class="d-block position-absolute" alt="">
+                        <button class="search-btn d-block position-absolute"><img src="./assets/images/icons/search.png" alt=""></button>
                         <input type="text" class="postion-relative" placeholder="Search Products by Product name, bacode">
                     </div>
                 </div>

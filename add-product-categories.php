@@ -25,8 +25,8 @@
                 </div>
 
                 <div class="inventory-main-input-wrapper">
-                    <div>
-                        <div class="two-col">
+                    <div class="row justify-content-between">
+                        <div class="col-md-6">
                             <label for="">
                                 <span>Category</span>
                                 <input type="text">
@@ -34,8 +34,8 @@
                         </div>
                     </div>
 
-                    <div>
-                        <div class="two-col">
+                    <div class="row justify-content-between">
+                        <div class="col-md-6">
                             <label for="">
                                 <span>Parent Category</span>
                                 <input type="text">

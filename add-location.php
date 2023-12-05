@@ -25,8 +25,8 @@
                 </div>
 
                 <div class="inventory-main-input-wrapper">
-                    <div>
-                        <div class="two-col">
+                    <div class="row justify-content-between">
+                        <div class="col-md-6">
                             <label for="">
                                 <span>Location Name</span>
                                 <input type="text">
@@ -34,8 +34,8 @@
                         </div>
                     </div>
 
-                    <div>
-                        <div class="two-col">
+                    <div class="row justify-content-between">
+                        <div class="col-md-6">
                             <label for="">
                                 <span>Parent Location</span>
                                 <select name="" id="">
@@ -45,8 +45,8 @@
                             </label>
                         </div>
                     </div>
-                    <div>
-                        <div class="two-col">
+                    <div class="row justify-content-between">
+                        <div class="col-md-6">
                             <label for="">
                                 <span>Barcode</span>
                                 <input type="text">

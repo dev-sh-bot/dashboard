@@ -188,7 +188,7 @@
          </section>
 
          <section class="dashboard-page-main-wrapper d-flex">
-            <div class="dashboard-store-table-wrapper">
+            <div class="dashboard-store-wrapper">
                <div class="dashboard-store-header d-flex align-items-center justify-content-between">
                   <div class="d-flex align-items-center">
                      <span><img src="./assets/images/icons/Notification.png" alt=""></span>
@@ -196,42 +196,44 @@
                   </div>
                   <div><a href="#">See All</a></div>
                </div>
-               <table>
-                  <thead>
-                     <tr>
-                        <th>Stores</th>
-                        <th>Location</th>
-                        <th>Address</th>
-                        <th>Company</th>
-                     </tr>
-                  </thead>
-                  <tbody>
-                     <tr>
-                        <td>Warehouse</td>
-                        <td>WH</td>
-                        <td>123 some road, Maitland</td>
-                        <td>Korea Market</td>
-                     </tr>
-                     <tr>
-                        <td>Shop</td>
-                        <td>SH</td>
-                        <td>123 some road, Lululand</td>
-                        <td>Korea Market</td>
-                     </tr>
-                     <tr>
-                        <td>Gogi Observatory</td>
-                        <td>GoOb</td>
-                        <td>123 some road, Lululand</td>
-                        <td>Gogi</td>
-                     </tr>
-                     <tr>
-                        <td>Shop</td>
-                        <td>SH</td>
-                        <td>123 some road, Lululand</td>
-                        <td>Korea Market</td>
-                     </tr>
-                  </tbody>
-               </table>
+               <div class="dashboard-store-table-wrapper">
+                  <table>
+                     <thead>
+                        <tr>
+                           <th>Stores</th>
+                           <th>Location</th>
+                           <th>Address</th>
+                           <th>Company</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>Warehouse</td>
+                           <td>WH</td>
+                           <td>123 some road, Maitland</td>
+                           <td>Korea Market</td>
+                        </tr>
+                        <tr>
+                           <td>Shop</td>
+                           <td>SH</td>
+                           <td>123 some road, Lululand</td>
+                           <td>Korea Market</td>
+                        </tr>
+                        <tr>
+                           <td>Gogi Observatory</td>
+                           <td>GoOb</td>
+                           <td>123 some road, Lululand</td>
+                           <td>Gogi</td>
+                        </tr>
+                        <tr>
+                           <td>Shop</td>
+                           <td>SH</td>
+                           <td>123 some road, Lululand</td>
+                           <td>Korea Market</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
             </div>
             <div class="dashboard-location-wrapper">
                <div class="dashboard-location-header d-flex align-items-center justify-content-between">

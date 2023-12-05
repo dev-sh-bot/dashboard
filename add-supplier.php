@@ -20,61 +20,61 @@
                 <div class="main-inventory-heading d-flex align-items-center justify-content-between">
                     <div class="d-flex align-items-center justify-content-center">
                         <span class="go-back-icon d-inline-block"><img src="./assets/images/icons/arrow-back.png" alt=""></span>
-                        <span class="heading">Add Location</span>
+                        <span class="heading">Add Supplier</span>
                     </div>
                 </div>
 
                 <div class="inventory-main-input-wrapper">
-                    <div class="d-flex justify-content-between">
-                        <div class="two-col">
+                    <div class="row justify-content-between">
+                        <div class="col-md-6">
                             <label for="">
                                 <span>Supplier Name</span>
                                 <input type="text">
                             </label>
                         </div>
-                        <div class="two-col">
+                        <div class="col-md-6">
                             <label for="">
                                 <span>Lead Time (in Days)</span>
                                 <input type="text">
                             </label>
                         </div>
                     </div>
-                    <div class="d-flex justify-content-between">
-                        <div class="two-col">
+                    <div class="row justify-content-between">
+                        <div class="col-md-6">
                             <label for="">
                                 <span>Address</span>
                                 <input type="text">
                             </label>
                         </div>
-                        <div class="two-col">
+                        <div class="col-md-6">
                             <label for="">
                                 <span>Base Margin (in %)</span>
                                 <input type="text">
                             </label>
                         </div>
                     </div>
-                    <div class="d-flex justify-content-between">
-                        <div class="two-col">
+                    <div class="row justify-content-between">
+                        <div class="col-md-6">
                             <label for="">
                                 <span>VAT</span>
                                 <input type="text">
                             </label>
                         </div>
-                        <div class="two-col">
+                        <div class="col-md-6">
                             <label for="">
                                 <span>Mobile Number</span>
                                 <input type="text">
                             </label>
                         </div>
                     </div>
-                    <div class="d-flex justify-content-between">
-                        <div class="two-col">
+                    <div class="row justify-content-between">
+                        <div class="col-md-6">
                             <label for="">
                                 <span>Phone Number</span>
                                 <input type="text">
                             </label>
                         </div>
-                        <div class="two-col">
+                        <div class="col-md-6">
                             <label for="">
                                 <span>Email Address</span>
                                 <input type="text">
