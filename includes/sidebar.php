@@ -305,11 +305,77 @@
                         <span>Point Of Sale(POS)</span>
                     </a>
                 </li>
-                <li class="menu-item">
-                    <a href="./users.php">
-                        <span class="menu-icon"><img src="./assets/images/icons/user-management.png" alt=""></span>
-                        <span>Employees</span>
-                    </a>
+                <li class="menu-item accordion-item">
+                    <h2 class="accordion-header" id="Employees">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEmployees" aria-expanded="true" aria-controls="collapseEmployees">
+                            <span class="menu-icon"><img src="./assets/images/icons/user-management.png" alt=""></span>
+                            <span>Employees</span>
+                        </button>
+                    </h2>
+                    <div id="collapseEmployees" class="accordion-collapse collapse" aria-labelledby="Employees" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul class="accordion inner-menu" id="accordionEmployeeConfig">
+                                <li class="menu-item">
+                                    <a href="./employees.php">
+                                        <span class="menu-icon"><img src="./assets/images/icons/arrow-right.png" alt=""></span>
+                                        <span>Employees</span>
+                                    </a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#">
+                                        <span class="menu-icon"><img src="./assets/images/icons/arrow-right.png" alt=""></span>
+                                        <span>Payroll</span>
+                                    </a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="./attendance.php">
+                                        <span class="menu-icon"><img src="./assets/images/icons/arrow-right.png" alt=""></span>
+                                        <span>Attendance</span>
+                                    </a>
+                                </li>
+                                <li class="accordion-item">
+                                    <h2 class="accordion-header" id="employeeConfig">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#employeeConfigCollapse" aria-expanded="true" aria-controls="employeeConfigCollapse">
+                                            <span class="menu-icon"><img src="./assets/images/icons/configuration.png" alt="">
+                                                Configuration
+                                            </span>
+                                        </button>
+                                    </h2>
+                                    <div id="employeeConfigCollapse" class="accordion-collapse collapse" aria-labelledby="employeeConfig" data-bs-parent="#accordionEmployeeConfig">
+                                        <div class="accordion-body">
+                                            <!-- Third Level Accordion -->
+                                            <ul class="accordion inner-menu" id="thirdLevelFive">
+                                                <li class="menu-item">
+                                                    <a href="./job-positions.php">
+                                                        <span class="menu-icon"><img src="./assets/images/icons/arrow-right.png" alt=""></span>
+                                                        <span>Job Positions</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="menu-icon"><img src="./assets/images/icons/arrow-right.png" alt=""></span>
+                                                        <span>Salary Rules</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="menu-icon"><img src="./assets/images/icons/arrow-right.png" alt=""></span>
+                                                        <span>Working Hours</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="menu-icon"><img src="./assets/images/icons/arrow-right.png" alt=""></span>
+                                                        <span>Contracts</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </li>
                 <li class="menu-item">
                     <a href="#">
