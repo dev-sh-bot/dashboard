@@ -18,8 +18,13 @@
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-
                             <ul class="accordion inner-menu" id="secondLevel">
+                                <li class="menu-item">
+                                    <a href="./inventory.php">
+                                        <span class="menu-icon"><img src="./assets/images/icons/arrow-right.png" alt=""></span>
+                                        <span>Inventory Report</span>
+                                    </a>
+                                </li>
                                 <li class="accordion-item">
                                     <h2 class="accordion-header" id="secondLevelHeadingOne">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#secondLevelCollapseOne" aria-expanded="true" aria-controls="secondLevelCollapseOne">
@@ -64,7 +69,7 @@
                                     </h2>
                                     <div id="secondLevelCollapseTwo" class="accordion-collapse collapse" aria-labelledby="secondLevelHeadingTwo" data-bs-parent="#secondLevel">
                                         <div class="accordion-body">
-                                            
+
                                             <ul class="inner-menu">
                                                 <li class="menu-item">
                                                     <a href="./suppliers.php">

@@ -818,12 +818,41 @@ body {
 	background: #FFF;
 }
 
-.main-content-wrapper .invertory-main-table {
-	/* margin-top: 60px; */
+.main-content-wrapper .invertory-main-table{
+	width: 100%;
+	overflow-x: auto;
 }
 
-.main-content-wrapper .invertory-main-table,
+.main-content-wrapper .invertory-main-table::-webkit-scrollbar {
+	width: 5px !important;
+	border-radius: 10px;
+	background: transparent !important;
+}
+
+.main-content-wrapper .invertory-main-table::-webkit-scrollbar-button:start:decrement,
+.main-content-wrapper .invertory-main-table::-webkit-scrollbar-button:end:increment {
+	display: none;
+}
+
+.main-content-wrapper .invertory-main-table::-webkit-scrollbar-track-piece {
+	background-color: transparent !important;
+}
+
+.main-content-wrapper .invertory-main-table::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-image: linear-gradient(90deg, #756AF0 0%, #978EF4 98.92%) !important;
+}
+
+.main-content-wrapper .invertory-main-table::-webkit-scrollbar-thumb:horizontal {
+	min-width: 5px;
+	/* Adjust the min-width to control the width of the horizontal scrollbar */
+	background-image: linear-gradient(0deg, #756AF0 0%, #978EF4 98.92%) !important;
+}
+
+
+
 .main-content-wrapper .invertory-main-table table {
+	min-width: 810px;
 	width: 100%;
 }
 
@@ -838,7 +867,6 @@ body {
 
 .main-content-wrapper .invertory-main-table th,
 .main-content-wrapper .invertory-main-table td {
-	width: 16.67%;
 	color: #8C8C8C;
 	font-size: 14px;
 	font-weight: 500;
@@ -850,8 +878,13 @@ body {
 }
 
 .main-content-wrapper .invertory-main-table td {
-	padding: 25px 10px;
+	padding: 15px 10px;
 	font-weight: 400;
+}
+
+.main-content-wrapper .invertory-main-table td a{
+	text-decoration: none;
+	color: inherit;
 }
 
 .main-content-wrapper .invertory-main-table tbody td:first-child {
@@ -1286,12 +1319,12 @@ body {
 }
 
 .email-modal-body .pdf-wrapper {
-	width: 420px;
+	max-width: 420px;
+	width: 100%;
 	height: 74px;
 	border-radius: 12px;
 	background: #F9F9F9;
 	padding: 10px 20px;
-
 	margin-top: 50px;
 }
 
@@ -1331,13 +1364,31 @@ body {
 	color: #8C8C8C;
 }
 
-.purchase-order-modal-btns {
+.user-modal-body p {
+	color: #000;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 200%;
+}
+
+.user-modal-footer .btn-action {
+	width: 200px;
+	height: 65px;
+	color: #FFF;
+	font-size: 16px;
+	font-weight: 500;
+	border: none;
+	border-radius: 12px;
+	background: linear-gradient(90deg, #756AF0 0%, #978EF4 98.92%);
+}
+
+.main-inventory-button {
 	gap: 20px;
 	margin-top: 30px;
 }
 
-.purchase-order-modal-btns button,
-.purchase-order-modal-btns a {
+.main-inventory-button button,
+.main-inventory-button a {
 	display: inline-block;
 	width: 192px;
 	border-radius: 10px;
@@ -1359,7 +1410,7 @@ body {
 
 .product-lot-search-select .ss-single-selected {
 	border-radius: 10px !important;
-	padding: 26px 31px !important;
+	padding: 22px 20px !important;
 	display: flex !important;
 	text-decoration: none !important;
 	font-size: 16px !important;
@@ -1528,6 +1579,21 @@ body {
 		width: 160px;
 		padding: 15px;
 	}
+
+	.user-modal-footer .btn-action,
+	.email-modal-footer .btn-action {
+		font-size: 14px;
+		width: 160px;
+		height: 50px;
+	}
+
+
+	.main-inventory-button button,
+	.main-inventory-button a {
+		width: 160px;
+		font-size: 14px;
+		padding: 15px;
+	}
 }
 
 
@@ -1560,7 +1626,6 @@ body {
 		padding: 10px;
 	}
 
-
 	/* Top Header */
 	.top-header {
 		padding: 15px;
@@ -1576,7 +1641,6 @@ body {
 		gap: 10px;
 		margin-right: 10px;
 	}
-
 
 	.location-dropdown-wrapper .location-icon-wrapper img {
 		display: none;
@@ -1616,6 +1680,12 @@ body {
 		margin-top: 20px;
 	}
 
+	.dashboard-page-main-wrapper .dashboard-notification-wrapper,
+	.dashboard-page-main-wrapper .dashboard-store-wrapper,
+	.dashboard-page-main-wrapper .dashboard-location-wrapper {
+		padding: 15px;
+	}
+
 	.dashboard-page-main-wrapper .total-number-section-wrapper>.d-flex:nth-child(2),
 	.dashboard-page-main-wrapper .total-number-section-wrapper>.d-flex:nth-child(3) {
 		display: none !important;
@@ -1647,7 +1717,6 @@ body {
 		justify-content: flex-start !important;
 	}
 
-
 	.inventory-main-input-wrapper label {
 		margin-top: 15px;
 	}
@@ -1675,18 +1744,190 @@ body {
 	.perform-action-btn a {
 		width: 50%;
 	}
+
+	.main-inventory-button {
+		margin-top: 20px;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.invertory-main-subtotal-wrapper div>span {
+		font-size: 16px;
+	}
+
+	.email-modal-header .email-info-wrapper {
+		margin-bottom: 30px;
+	}
+
+	.email-modal-header .email-info-wrapper span {
+		font-size: 14px;
+	}
+
+	.email-modal-header .email-info-wrapper input,
+	.email-modal-header .email-info-wrapper select,
+	.email-modal-body .pdf-wrapper span:first-child,
+	.email-modal-body p {
+		font-size: 16px;
+	}
+
+	.email-modal-footer {
+		margin-top: 30px;
+	}
+
+	.user-modal-footer .btn-action,
+	.email-modal-footer .btn-action {
+		width: auto;
+		flex-grow: 1;
+	}
+
+	.product-lot-search-wrapper {
+		gap: 20px;
+	}
+
+	.user-modal-body p {
+		font-size: 16px;
+	}
 }
 
-/*footer*/
 
-/*media-quries*/
+@media (max-width: 500px) {
+
+	.sidebar {
+		width: 100%;
+	}
+	.dropdown-menu {
+		top: 60% !important;
+	}
+
+	.dropdown-item {
+		font-size: 14px;
+	}
+
+	/* Top-Header */
+	.location-dropdown-wrapper .location-icon-wrapper span {
+		font-size: 14px;
+	}
+
+	/* Home Page Main Content Wrapper */
+	.main-wrapper .total-number-wrapper .total-number-counting>span:nth-child(1) {
+		font-size: 18px;
+	}
+
+	.dashboard-page-main-wrapper .total-number-wrapper .total-number-counting>span:nth-child(2) {
+		font-size: 12px;
+	}
+
+
+	.dashboard-page-main-wrapper .dashboard-notification-wrapper .dashboard-notification-header span:nth-child(1) img,
+	.dashboard-page-main-wrapper .dashboard-store-wrapper .dashboard-store-header span:nth-child(1) img,
+	.dashboard-page-main-wrapper .dashboard-location-wrapper .dashboard-location-header span:nth-child(1) img {
+		width: 23px;
+		height: 23px;
+	}
+
+	.dashboard-page-main-wrapper .dashboard-notification-wrapper .dashboard-notification-header span:nth-child(2),
+	.dashboard-page-main-wrapper .dashboard-store-wrapper .dashboard-store-header span:nth-child(2),
+	.dashboard-page-main-wrapper .dashboard-location-wrapper .dashboard-location-header span:nth-child(2) {
+		font-size: 18px;
+	}
+
+	.dashboard-page-main-wrapper .dashboard-notification-wrapper .dashboard-notification-header,
+	.dashboard-page-main-wrapper .dashboard-store-wrapper .dashboard-store-header,
+	.dashboard-page-main-wrapper .dashboard-location-wrapper .dashboard-location-header {
+		padding-bottom: 10px;
+	}
+
+
+	/* Inventory Main Content Page */
+	.main-inventory-heading .go-back-icon {
+		margin-right: 2px;
+		width: 30px;
+	}
+
+	.main-inventory-heading .heading {
+		font-size: 24px;
+	}
+
+	.search-box input {
+		font-size: 13px;
+		padding: 10px 18px 10px 50px;
+		border: 1px solid #E8E8E8;
+	}
+
+	.main-action-btns .main-action-btn-left,
+	.main-action-btns .main-action-btn-right button {
+		font-size: 14px;
+	}
+
+	.invertory-main-table-wrapper table th,
+	.invertory-main-table-wrapper table td {
+		font-size: 13px;
+	}
+
+	.inventory-main-input-wrapper label span {
+		font-size: 14px;
+	}
+
+	.inventory-main-input-wrapper label input,
+	.inventory-main-input-wrapper label select,
+	.inventory-main-input-wrapper label textarea,
+	.invertory-main-input-wrapper .inventory-row-inputs input,
+	.invertory-main-input-wrapper .inventory-row-inputs select {
+		font-size: 13px;
+	}
+
+	.main-inventory-button {
+		gap: 10px;
+		margin-top: 10px;
+	}
+
+	.main-inventory-button button,
+	.main-inventory-button a {
+		padding: 10px;
+	}
+
+	.modal-content {
+		padding: 30px;
+	}
+
+	.email-modal-header .email-info-wrapper input,
+	.email-modal-header .email-info-wrapper select,
+	.email-modal-body .pdf-wrapper span:first-child,
+	.email-modal-body p {
+		font-size: 14px;
+	}
+
+	.invertory-main-table-wrapper,
+	.invertory-main-subtotal-wrapper {
+		margin-top: 10px;
+	}
+
+	.invertory-main-subtotal-wrapper {
+		padding: 10px 0px;
+	}
+
+	.email-modal-header .email-info-wrapper {
+		margin-bottom: 15px;
+	}
+
+	.email-modal-body .pdf-wrapper {
+		margin-top: 0px;
+	}
+	
+	.user-modal-body p {
+		font-size: 14px;
+	}
+}
+
+
+
+
 @media (max-width: 1440px) {}
 
 @media (max-width: 1024px) {}
 
 @media (max-width:1200px) {}
 
-@media (max-width: 980px) {}
 
 @media (min-width: 440px) and (max-width: 740px) {}
 

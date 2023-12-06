@@ -24,26 +24,7 @@
                 </div>
 
                 <div class="main-action-btns d-flex align-items-center justify-content-between">
-
                     <a href="#" class="main-action-btn-left">Add New</a>
-
-
-                    <span class="product-lot-search-select">
-                        <select id="mySelect" style="width: 100%;">
-                            <option value="" selected disabled>Choose Product</option>
-                            <option value="Option 1">Product 1</option>
-                            <option value="Option 2">Product 2</option>
-                            <option value="Option 3">Product 3</option>
-                            <option value="Option 4">Product 4</option>
-                            <option value="Option 5">Product 5</option>
-                        </select>
-                    </span>
-
-
-                    <div class="search-box position-relative">
-                        <button class="search-btn d-block position-absolute"><img src="./assets/images/icons/search.png" alt=""></button>
-                        <input type="text" class="postion-relative" placeholder="Search Products by Product name, bacode">
-                    </div>
 
                     <div class="dropdown main-action-btn-right">
                         <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -54,6 +35,28 @@
                             <li><a class="dropdown-item" href="#">Another action</a></li>
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
+                    </div>
+                </div>
+
+                <div class="row product-lot-search-wrapper align-items-center mt-4">
+                    <div class="col-md-6">
+                        <span class="product-lot-search-select">
+                            <select id="mySelect" style="width: 100%;">
+                                <option value="" selected disabled>Choose Product</option>
+                                <option value="Option 1">Product 1</option>
+                                <option value="Option 2">Product 2</option>
+                                <option value="Option 3">Product 3</option>
+                                <option value="Option 4">Product 4</option>
+                                <option value="Option 5">Product 5</option>
+                            </select>
+                        </span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="w-100 search-box position-relative">
+                            <button class="search-btn d-block position-absolute"><img src="./assets/images/icons/search.png" alt=""></button>
+                            <input type="text" class="postion-relative" placeholder="Search Products by Product name, bacode">
+                        </div>
                     </div>
                 </div>
 

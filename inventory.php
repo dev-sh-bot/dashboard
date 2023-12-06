@@ -15,7 +15,7 @@
 
         <main class="main-wrapper">
             <?php include("includes/top-header.php"); ?>
-            
+
             <section class="main-content-wrapper d-flex flex-column">
                 <div class="invertory-main-table">
                     <table>
@@ -32,11 +32,11 @@
                         <tbody>
                             <tr>
                                 <td><span>Warehouse</span></td>
-                                <td><span class="active">2 of Process</span></td>
+                                <td><span class="active"><a href="./transfers.php">2 of Process</a></span></td>
                                 <td><span>0 of Process</span></td>
                                 <td><span class="active">4 of Process</span></td>
                                 <td><span class="active">4 of Process</span></td>
-                                <td><span class="active">4 of Process</span></td>
+                                <td><span class="active"><a href="./scraps.php">4 of Process</a></span></td>
                             </tr>
                             <tr>
                                 <td><span>Shop</span></td>
