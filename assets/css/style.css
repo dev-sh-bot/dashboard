@@ -818,7 +818,7 @@ body {
 	background: #FFF;
 }
 
-.main-content-wrapper .invertory-main-table{
+.main-content-wrapper .invertory-main-table {
 	width: 100%;
 	overflow-x: auto;
 }
@@ -882,7 +882,7 @@ body {
 	font-weight: 400;
 }
 
-.main-content-wrapper .invertory-main-table td a{
+.main-content-wrapper .invertory-main-table td a {
 	text-decoration: none;
 	color: inherit;
 }
@@ -947,7 +947,20 @@ body {
 }
 
 .main-action-btns {
-	margin-top: 15px;
+	padding: 15px 0px !important;
+}
+
+
+.main-action-btns input,
+select {
+	border-radius: 10px;
+	padding: 6px 20px;
+	display: block;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 400;
+	border: 1px solid #8C8C8C;
+	background-color: #F9F9F9;
 }
 
 .main-action-btns .main-action-btn-left,
@@ -968,7 +981,7 @@ body {
 }
 
 .invertory-main-table-wrapper {
-	margin-top: 35px;
+	margin-top: 20px;
 	width: 100%;
 	overflow: auto;
 }
@@ -1037,7 +1050,6 @@ body {
 .invertory-main-table-wrapper table th {
 	padding: 10px 5px;
 }
-
 
 .invertory-main-table-wrapper table input {
 	width: 16px;
@@ -1206,7 +1218,7 @@ body {
 }
 
 .invertory-main-input-wrapper .invertory-main-input-header {
-	margin-top: 65px;
+	margin-top: 30px;
 	padding: 5px;
 	border-bottom: 1px solid #D0D3D9;
 }
@@ -1246,8 +1258,27 @@ body {
 	resize: none;
 }
 
+
+.invertory-main-input-wrapper .inventory-product-list {
+	margin-top: 20px;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.invertory-main-input-wrapper .inventory-product-list ul {
+	list-style-type: number;
+}
+
+.invertory-main-input-wrapper .inventory-product-list li {
+	margin-bottom: 5px;
+}
+
+.invertory-main-input-wrapper .inventory-product-list li:last-child {
+	margin-bottom: 0px;
+}
+
 .invertory-main-subtotal-wrapper {
-	margin-top: 65px;
+	margin-top: 20px;
 	padding: 25px 0px;
 	border-top: 1px solid #D0D3D9;
 }
@@ -1308,6 +1339,7 @@ body {
 	border: none;
 	border-bottom: 1px solid #8C8C8C;
 	outline: none;
+	border-radius: 0px;
 }
 
 .email-modal-body p {
@@ -1428,6 +1460,33 @@ body {
 }
 
 
+.pos-order-wrapper {
+	margin-top: 20px;
+	padding: 25px 0px 0px;
+	border-top: 1px solid #D0D3D9;
+}
+
+.pos-order-wrapper>div.row div {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.gift-card-modal-content .gift-card-modal-header h3 {
+	color: #8C8C8C;
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 20px;
+	text-align: center;
+}
+
+.gift-card-modal-content .gift-card-modal-body p {
+	color: #FF4F04;
+	font-size: 65px;
+	font-weight: 700;
+	line-height: 75px;
+	text-align: center;
+	padding: 40px 0px;
+}
 
 /* Mobile responsiveness */
 @media (max-width: 1200px) {
@@ -1550,7 +1609,6 @@ body {
 	.inventory-main-input-wrapper .inventory-input-tabs ul {
 		width: 48%;
 	}
-
 
 	.inventory-main-input-wrapper label input,
 	.inventory-main-input-wrapper label select,
@@ -1794,6 +1852,7 @@ body {
 	.sidebar {
 		width: 100%;
 	}
+
 	.dropdown-menu {
 		top: 60% !important;
 	}
@@ -1912,7 +1971,7 @@ body {
 	.email-modal-body .pdf-wrapper {
 		margin-top: 0px;
 	}
-	
+
 	.user-modal-body p {
 		font-size: 14px;
 	}

@@ -197,114 +197,138 @@
                                         </div>
                                     </div>
                                 </li>
-
-
-                                <!-- <li class="accordion-item">
-                                    <h2 class="accordion-header" id="secondLevelHeadingFive">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#secondLevelCollapseFive" aria-expanded="true" aria-controls="secondLevelCollapseFive">
-                                            <span class="menu-icon"><img src="./assets/images/icons/configuration.png" alt="">
-                                                Configuration
-                                            </span>
-                                        </button>
-                                    </h2>
-                                    <div id="secondLevelCollapseFive" class="accordion-collapse collapse" aria-labelledby="secondLevelHeadingFive" data-bs-parent="#secondLevel">
-                                        <div class="accordion-body">
-                                            
-                                            <ul class="accordion inner-menu" id="thirdLevelFive">
-                                                
-                                                <li class="accordion-item">
-                                                    <h2 class="accordion-header" id="thirdLevelFiveHeadingOne">
-                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#thirdLevelFiveCollapseOne" aria-expanded="true" aria-controls="thirdLevelFiveCollapseOne">
-                                                            Content for Stores
-                                                        </button>
-                                                    </h2>
-                                                    <div id="thirdLevelFiveCollapseOne" class="accordion-collapse collapse" aria-labelledby="thirdLevelFiveHeadingOne" data-bs-parent="#thirdLevelFive">
-                                                        <div class="accordion-body">
-                                                            Content for Stores
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                
-                                                <li class="accordion-item">
-                                                    <h2 class="accordion-header" id="thirdLevelFiveHeadingTwo">
-                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#thirdLevelFiveCollapseTwo" aria-expanded="true" aria-controls="thirdLevelFiveCollapseTwo">
-                                                            Locations
-                                                        </button>
-                                                    </h2>
-                                                    <div id="thirdLevelFiveCollapseTwo" class="accordion-collapse collapse" aria-labelledby="thirdLevelFiveHeadingTwo" data-bs-parent="#thirdLevelFive">
-                                                        <div class="accordion-body">
-                                                            Content for Locations
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                
-                                                <li class="accordion-item">
-                                                    <h2 class="accordion-header" id="thirdLevelFiveHeadingThree">
-                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#thirdLevelFiveCollapseThree" aria-expanded="true" aria-controls="thirdLevelFiveCollapseThree">
-                                                            Routes
-                                                        </button>
-                                                    </h2>
-                                                    <div id="thirdLevelFiveCollapseThree" class="accordion-collapse collapse" aria-labelledby="thirdLevelFiveHeadingThree" data-bs-parent="#thirdLevelFive">
-                                                        <div class="accordion-body">
-                                                            Content for Routes
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li class="accordion-item">
-                                                    <h2 class="accordion-header" id="thirdLevelFiveHeadingFour">
-                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#thirdLevelFiveCollapseFour" aria-expanded="true" aria-controls="thirdLevelFiveCollapseFour">
-                                                            Operation Types
-                                                        </button>
-                                                    </h2>
-                                                    <div id="thirdLevelFiveCollapseFour" class="accordion-collapse collapse" aria-labelledby="thirdLevelFiveHeadingFour" data-bs-parent="#thirdLevelFive">
-                                                        <div class="accordion-body">
-                                                            Content for Operation Types
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li class="accordion-item">
-                                                    <h2 class="accordion-header" id="thirdLevelFiveHeadingFive">
-                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#thirdLevelFiveCollapseFive" aria-expanded="true" aria-controls="thirdLevelFiveCollapseFive">
-                                                            Product Categories
-                                                        </button>
-                                                    </h2>
-                                                    <div id="thirdLevelFiveCollapseFive" class="accordion-collapse collapse" aria-labelledby="thirdLevelFiveHeadingFive" data-bs-parent="#thirdLevelFive">
-                                                        <div class="accordion-body">
-                                                            Product Categories
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </li> -->
                             </ul>
                         </div>
                     </div>
                 </li>
 
-
-                <!-- <li class="menu-item accordion-item">
-                    <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Accordion Item #2
+                <li class="menu-item accordion-item">
+                    <h2 class="accordion-header" id="POS-accordian">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#POS-accordianCollapseOne" aria-expanded="true" aria-controls="POS-accordianCollapseOne">
+                            <span class="menu-icon"><img src="./assets/images/icons/pos.png" alt=""></span>
+                            <span>Point Of Sale(POS)</span>
                         </button>
                     </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+
+
+                    <div id="POS-accordianCollapseOne" class="accordion-collapse collapse" aria-labelledby="POS-accordian" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <ul class="accordion inner-menu" id="pos-secondLevel">
+                                <li class="accordion-item">
+                                    <h2 class="accordion-header" id="pos-order-secondLevelHeadingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#pos-order-secondLevelCollapseOne" aria-expanded="true" aria-controls="pos-order-secondLevelCollapseOne">
+                                            <span class="menu-icon"><img src="./assets/images/icons/operation.png" alt="">
+                                            Orders
+                                            </span>
+                                        </button>
+                                    </h2>
+                                    <div id="pos-order-secondLevelCollapseOne" class="accordion-collapse collapse" aria-labelledby="pos-order-secondLevelHeadingOne" data-bs-parent="#pos-secondLevel">
+                                        <div class="accordion-body">
+                                            <!-- Third Level Accordion -->
+                                            <ul class="accordion inner-menu" id="thirdLevelOne">
+                                                <li class="menu-item">
+                                                    <a href="./orders.php">
+                                                        <span class="menu-icon"><img src="./assets/images/icons/arrow-right.png" alt=""></span>
+                                                        <span>Orders</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="./sessions.php">
+                                                        <span class="menu-icon"><img src="./assets/images/icons/arrow-right.png" alt=""></span>
+                                                        <span>Sessions</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="./payments.php">
+                                                        <span class="menu-icon"><img src="./assets/images/icons/arrow-right.png" alt=""></span>
+                                                        <span>Payments</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="accordion-item">
+                                    <h2 class="accordion-header" id="pos-product-secondLevelHeadingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#pos-product-secondLevelCollapseTwo" aria-expanded="true" aria-controls="pos-product-secondLevelCollapseTwo">
+                                            <span class="menu-icon"><img src="./assets/images/icons/purchase.png" alt="">
+                                            Products
+                                            </span>
+                                        </button>
+                                    </h2>
+                                    <div id="pos-product-secondLevelCollapseTwo" class="accordion-collapse collapse" aria-labelledby="pos-product-secondLevelHeadingTwo" data-bs-parent="#pos-secondLevel">
+                                        <div class="accordion-body">
+
+                                            <ul class="inner-menu">
+                                                <li class="menu-item">
+                                                    <a href="./promotions.php">
+                                                        <span class="menu-icon"><img src="./assets/images/icons/arrow-right.png" alt=""></span>
+                                                        <span>Promotion</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="./gift-cards.php">
+                                                        <span class="menu-icon"><img src="./assets/images/icons/arrow-right.png" alt=""></span>
+                                                        <span>Gift Cards</span>
+                                                    </a>
+                                                </li>
+
+                                            </ul>
+                                            <!-- End of Third Level Accordion -->
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="accordion-item">
+                                    <h2 class="accordion-header" id="pos-config-secondLevelHeadingFive">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#pos-config-secondLevelCollapseFive" aria-expanded="true" aria-controls="pos-config-secondLevelCollapseFive">
+                                            <span class="menu-icon"><img src="./assets/images/icons/configuration.png" alt="">
+                                                Configuration
+                                            </span>
+                                        </button>
+                                    </h2>
+                                    <div id="pos-config-secondLevelCollapseFive" class="accordion-collapse collapse" aria-labelledby="pos-config-secondLevelHeadingFive" data-bs-parent="#pos-secondLevel">
+                                        <div class="accordion-body">
+                                            <!-- Third Level Accordion -->
+                                            <ul class="accordion inner-menu" id="thirdLevelFive">
+                                                <li class="menu-item">
+                                                    <a href="./point-of-sale.php">
+                                                        <span class="menu-icon"><img src="./assets/images/icons/arrow-right.png" alt=""></span>
+                                                        <span>Point of Sale</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="./printer-setting.php">
+                                                        <span class="menu-icon"><img src="./assets/images/icons/arrow-right.png" alt=""></span>
+                                                        <span>Printer Settings</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="./payment-methods.php">
+                                                        <span class="menu-icon"><img src="./assets/images/icons/arrow-right.png" alt=""></span>
+                                                        <span>Payment Methods</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="./discounts.php">
+                                                        <span class="menu-icon"><img src="./assets/images/icons/arrow-right.png" alt=""></span>
+                                                        <span>Discounts</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="./product-categories.php">
+                                                        <span class="menu-icon"><img src="./assets/images/icons/arrow-right.png" alt=""></span>
+                                                        <span>Restaurant Tables</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </li>
-                -->
-
-
-                <li class="menu-item">
-                    <a href="#">
-                        <span class="menu-icon"><img src="./assets/images/icons/pos.png" alt=""></span>
-                        <span>Point Of Sale(POS)</span>
-                    </a>
-                </li>
+                
                 <li class="menu-item accordion-item">
                     <h2 class="accordion-header" id="Employees">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEmployees" aria-expanded="true" aria-controls="collapseEmployees">
