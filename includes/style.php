@@ -14,3 +14,4 @@
 
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slim-select@1.27.0/dist/slimselect.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">

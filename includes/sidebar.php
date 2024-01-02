@@ -315,7 +315,7 @@
                                                     </a>
                                                 </li>
                                                 <li class="menu-item">
-                                                    <a href="./product-categories.php">
+                                                    <a href="./restaurant-tables.php">
                                                         <span class="menu-icon"><img src="./assets/images/icons/arrow-right.png" alt=""></span>
                                                         <span>Restaurant Tables</span>
                                                     </a>
